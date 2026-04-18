@@ -329,6 +329,10 @@ function getConvertedDiagramLabel(position) {
     return "Ballen omgezet naar app-diagram; lijnen nog controleren";
   }
 
+  if (position.lineStatus === "improved") {
+    return "Ballen en hoofdlijnen omgezet naar app-diagram";
+  }
+
   return "Omgezet naar app-diagram";
 }
 
@@ -661,7 +665,14 @@ function renderTable(position, editor = false) {
   const markerId = `arrow-${position.id}`;
   const paths = (position.paths || [])
     .map((path) => {
-      const className = path.ball === "second" ? "path-second" : path.ball === "third" ? "path-third" : "path-cue";
+      const className =
+        path.ball === "second"
+          ? "path-second"
+          : path.ball === "third"
+            ? "path-third"
+            : path.ball === "stick"
+              ? "path-stick"
+              : "path-cue";
       const points = path.points.map((point) => `${point.x},${point.y}`).join(" ");
       return `<polyline class="shot-path aim-line ${className}" points="${points}" marker-end="url(#${markerId})"></polyline>`;
     })

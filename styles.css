@@ -294,6 +294,12 @@ main {
   stroke: var(--accent);
 }
 
+.path-stick {
+  stroke: #8c4d18;
+  stroke-width: 0.95;
+  stroke-dasharray: none;
+}
+
 .aim-line {
   stroke-dasharray: 2 1.5;
 }

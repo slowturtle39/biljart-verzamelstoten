@@ -250,10 +250,10 @@ const seedPositions = [
 const positionOverrides = {
   "dirk-acx-001": {
     title: "PDF-positie 1 - voorbeeld omgezet",
-    status: "ballen omgezet, lijnen controleren",
+    status: "hoofdlijnen omgezet",
     renderMode: "table",
     generatedFromImage: true,
-    lineStatus: "concept",
+    lineStatus: "improved",
     originalDiagramImage: "assets/positions/shot-001.jpg",
     goal:
       "Maak de carambole vanuit de bovenste verzamelpositie en probeer de ballen richting rechter korte band bij elkaar te houden.",
@@ -266,11 +266,17 @@ const positionOverrides = {
     },
     paths: [
       {
+        ball: "stick",
+        points: [
+          { x: 11.8, y: 12.4 },
+          { x: 53.5, y: 9.2 },
+        ],
+      },
+      {
         ball: "cue",
         points: [
           { x: 53.5, y: 9.2 },
           { x: 74.4, y: 4.7 },
-          { x: 96.0, y: 20.0 },
           { x: 93.0, y: 45.7 },
         ],
       },
@@ -278,18 +284,18 @@ const positionOverrides = {
         ball: "second",
         points: [
           { x: 74.4, y: 4.7 },
-          { x: 96.0, y: 20.0 },
-          { x: 49.0, y: 43.0 },
-          { x: 4.0, y: 23.0 },
-          { x: 23.0, y: 7.0 },
-          { x: 78.0, y: 29.0 },
+          { x: 99.7, y: 21.9 },
+          { x: 46.5, y: 44.5 },
+          { x: 14.3, y: 13.7 },
+          { x: 34.5, y: 0.5 },
+          { x: 76.9, y: 35.2 },
         ],
       },
       {
         ball: "third",
         points: [
           { x: 93.0, y: 45.7 },
-          { x: 88.0, y: 42.0 },
+          { x: 88.7, y: 41.7 },
         ],
       },
     ],
@@ -304,7 +310,7 @@ const positionOverrides = {
         "Effect: laag-links, ongeveer stand 3.",
         "Power: ongeveer 8.6 / 10.",
         "Raakpunt: ongeveer halfvol op geel.",
-        "Lijnen: concept. De originele stootbal-lijn en looplijnen moeten nog tegen het PDF-diagram gecontroleerd worden.",
+        "Lijnen: verbeterde omzetting uit het groene simulatiediagram. De bruine lijn is de keu-/stootrichting.",
         "Bronbeeld: PDF-positie 1, zodat deze later ook aan exact dezelfde YouTube-stoot gekoppeld kan worden.",
       ],
     },
