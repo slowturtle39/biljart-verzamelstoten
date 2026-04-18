@@ -255,6 +255,7 @@ const positionOverrides = {
     generatedFromImage: true,
     lineStatus: "diamond",
     originalDiagramImage: "assets/positions/shot-001.jpg",
+    lineOverlayImage: "",
     goal:
       "Maak de carambole vanuit de bovenste verzamelpositie en probeer de ballen richting rechter korte band bij elkaar te houden.",
     hint:

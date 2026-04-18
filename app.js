@@ -341,6 +341,10 @@ function getConvertedDiagramLabel(position) {
     return "Automatisch omgezet met per-diagram railpuntcalibratie";
   }
 
+  if (position.lineStatus === "source-overlay") {
+    return "Looplijnen als bron-overlay gecalibreerd op de witte railpunten";
+  }
+
   return "Omgezet naar app-diagram";
 }
 
@@ -671,6 +675,9 @@ function saveCustomPosition(formData) {
 
 function renderTable(position, editor = false) {
   const markerId = `arrow-${position.id}`;
+  const lineOverlay = position.lineOverlayImage
+    ? `<image class="line-overlay" href="${escapeAttribute(position.lineOverlayImage)}" x="0" y="0" width="100" height="50" preserveAspectRatio="none"></image>`
+    : "";
   const paths = (position.paths || [])
     .map((path) => {
       const className =
@@ -711,6 +718,7 @@ function renderTable(position, editor = false) {
       </defs>
       <rect class="table-bed" x="0" y="0" width="100" height="50"></rect>
       ${renderDiamonds()}
+      ${lineOverlay}
       ${paths}
       ${balls}
     </svg>

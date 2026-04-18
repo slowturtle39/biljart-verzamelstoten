@@ -305,6 +305,11 @@ main {
   stroke-width: 0.5;
 }
 
+.line-overlay {
+  opacity: 0.92;
+  pointer-events: none;
+}
+
 .aim-line {
   stroke-dasharray: 2 1.5;
 }

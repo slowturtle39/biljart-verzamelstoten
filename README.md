@@ -58,6 +58,12 @@ gemarkeerd als controle nodig: balposities, power en effect worden uit de
 duidelijkere PDF-render gelezen, maar de originele PDF-afbeelding blijft per
 positie beschikbaar als broncontrole.
 
+De looplijnen worden niet meer als losse geraden vectorsegmenten opgeslagen.
+De generator maakt per positie een transparante bron-overlay in
+`assets/line-overlays/`, gecalibreerd op de witte railpunten van het groene
+simulatiediagram. Dat voorkomt dat losse lijnfragmenten verkeerd aan elkaar
+worden geplakt.
+
 ## Gebruiken
 
 Open `index.html` in een browser. Voor installatie op telefoon of offline cache

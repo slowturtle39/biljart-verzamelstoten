@@ -22,6 +22,7 @@ from calibrate_pdf_diagrams import (
 
 
 OUT_JS = ROOT / "pdf-converted-overrides.js"
+OVERLAY_DIR = ROOT / "assets" / "line-overlays"
 
 
 def round_point(point: tuple[float, float]) -> dict[str, float]:
@@ -435,6 +436,119 @@ def make_paths(stick: dict[str, object] | None, guide_segments: list[dict[str, o
     return paths
 
 
+def dilate(mask: np.ndarray, iterations: int = 1) -> np.ndarray:
+    output = mask.copy()
+    for _ in range(iterations):
+        expanded = output.copy()
+        expanded[1:, :] |= output[:-1, :]
+        expanded[:-1, :] |= output[1:, :]
+        expanded[:, 1:] |= output[:, :-1]
+        expanded[:, :-1] |= output[:, 1:]
+        expanded[1:, 1:] |= output[:-1, :-1]
+        expanded[:-1, :-1] |= output[1:, 1:]
+        expanded[1:, :-1] |= output[:-1, 1:]
+        expanded[:-1, 1:] |= output[1:, :-1]
+        output = expanded
+    return output
+
+
+def write_line_overlay(
+    array: np.ndarray,
+    green_matrix: np.ndarray,
+    green_bed: Box,
+    output_path: Path,
+    width: int = 1000,
+    height: int = 500,
+) -> None:
+    inverse = np.linalg.inv(green_matrix)
+    table_x = np.linspace(0, 100, width)
+    table_y = np.linspace(0, 50, height)
+    grid_x, grid_y = np.meshgrid(table_x, table_y)
+
+    denominator = inverse[2, 0] * grid_x + inverse[2, 1] * grid_y + inverse[2, 2]
+    source_x = (inverse[0, 0] * grid_x + inverse[0, 1] * grid_y + inverse[0, 2]) / denominator
+    source_y = (inverse[1, 0] * grid_x + inverse[1, 1] * grid_y + inverse[1, 2]) / denominator
+
+    source_xi = np.rint(source_x).astype(np.int32)
+    source_yi = np.rint(source_y).astype(np.int32)
+    valid = (
+        (source_xi >= 0)
+        & (source_xi < array.shape[1])
+        & (source_yi >= 0)
+        & (source_yi < array.shape[0])
+    )
+    source_on_bed = (
+        valid
+        & (source_xi >= green_bed.left)
+        & (source_xi < green_bed.right)
+        & (source_yi >= green_bed.top)
+        & (source_yi < green_bed.bottom)
+    )
+    inner_table = source_on_bed & (grid_x > 1.2) & (grid_x < 98.8) & (grid_y > 1.8) & (grid_y < 48.2)
+
+    sampled = np.zeros((height, width, 3), dtype=np.uint8)
+    sampled[valid] = array[source_yi[valid], source_xi[valid]]
+    red = sampled[:, :, 0].astype(np.int16)
+    green = sampled[:, :, 1].astype(np.int16)
+    blue = sampled[:, :, 2].astype(np.int16)
+
+    line = (
+        inner_table
+        & (red > 58)
+        & (green > 62)
+        & (blue > 48)
+        & ((red + green + blue) > 205)
+        & (np.abs(red - green) < 100)
+        & (np.abs(green - blue) < 115)
+    )
+    stick = (
+        inner_table
+        & (red > 78)
+        & (green > 40)
+        & (green < 190)
+        & (blue < 145)
+        & (red > blue + 22)
+        & (red > green - 40)
+    )
+
+    # Keep the source looplijnen, but do not copy the full colored balls into the overlay.
+    red_ball = (red > 125) & (green < 115) & (blue < 130) & (red > green + 40)
+    yellow_ball = (red > 145) & (green > 95) & (blue < 125) & (red > blue + 45) & (green > blue + 35)
+    line &= ~(red_ball | yellow_ball)
+
+    cleaned_stick = np.zeros_like(stick)
+    for box in component_boxes(stick, min_area=20):
+        touches_horizontal_rail = box.width > width * 0.28 and (box.top < height * 0.12 or box.bottom > height * 0.88)
+        touches_vertical_rail = box.height > height * 0.28 and (box.left < width * 0.08 or box.right > width * 0.92)
+        too_large = box.area > width * height * 0.012
+        aspect = max(box.width / max(1, box.height), box.height / max(1, box.width))
+        if touches_horizontal_rail or touches_vertical_rail or too_large or aspect < 2.0:
+            continue
+        cleaned_stick[box.top : box.bottom, box.left : box.right] |= stick[box.top : box.bottom, box.left : box.right]
+
+    cleaned_line = np.zeros_like(line)
+    for box in component_boxes(line, min_area=8):
+        top_rail_noise = box.width > width * 0.24 and box.top < height * 0.1
+        bottom_rail_noise = box.width > width * 0.24 and box.bottom > height * 0.9
+        left_rail_noise = box.height > height * 0.2 and box.left < width * 0.07
+        right_rail_noise = box.height > height * 0.2 and box.right > width * 0.93
+        if top_rail_noise or bottom_rail_noise or left_rail_noise or right_rail_noise:
+            continue
+        cleaned_line[box.top : box.bottom, box.left : box.right] |= line[box.top : box.bottom, box.left : box.right]
+
+    line = dilate(cleaned_line, 1)
+    stick = dilate(cleaned_stick, 1)
+
+    rgba = np.zeros((height, width, 4), dtype=np.uint8)
+    rgba[line] = (255, 255, 255, 175)
+    # Do not copy brown cue/rail pixels into generated positions; they caused
+    # misleading artefacts. The manually corrected example can still carry a
+    # drawn cue line through its vector paths.
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    Image.fromarray(rgba, "RGBA").save(output_path, optimize=True)
+
+
 def make_text(power: float | None, spin: str | None, notes: list[str]) -> tuple[str, dict[str, object]]:
     power_text = f"ongeveer {power} / 10" if power is not None else "zie de powerbalk in het bronbeeld"
     spin_text = spin if spin else "zie de effectbal in het bronbeeld"
@@ -445,7 +559,7 @@ def make_text(power: float | None, spin: str | None, notes: list[str]) -> tuple[
 
     technical_details = [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: automatisch overgenomen uit de groene simulatie en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         f"Power: {power_text}.",
         f"Effect: {spin_text}.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -482,7 +596,9 @@ def convert_position(position: dict[str, object], scale: float, debug: bool = Fa
     stick = detect_stick(array, green_bed, green_matrix)
     guide_segments = detect_guide_segments(array, green_bed, green_matrix)
     balls, notes = role_balls(color_balls, stick)
-    paths = make_paths(stick, guide_segments)
+    overlay_filename = f"{position['id']}-lines.png"
+    overlay_path = OVERLAY_DIR / overlay_filename
+    write_line_overlay(array, green_matrix, green_bed, overlay_path)
     power = estimate_power(array, green_bed)
     spin = estimate_spin(array, green_bed)
     hint, solution = make_text(power, spin, notes)
@@ -491,11 +607,12 @@ def convert_position(position: dict[str, object], scale: float, debug: bool = Fa
         "status": "auto omgezet - controle nodig",
         "renderMode": "table" if len(balls) >= 3 else "pdf",
         "generatedFromImage": True,
-        "lineStatus": "auto-diamond",
+        "lineStatus": "source-overlay",
         "originalDiagramImage": position.get("diagramImage"),
+        "lineOverlayImage": str(Path("assets") / "line-overlays" / overlay_filename).replace("\\", "/"),
         "hint": hint,
         "balls": balls,
-        "paths": paths,
+        "paths": [],
         "solution": solution,
     }
 
