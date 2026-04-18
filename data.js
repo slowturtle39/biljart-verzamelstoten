@@ -922,6 +922,7 @@ const positionOverrides = {
         ball: "second",
         points: [
           { x: 73.3, y: 24.6 },
+          { x: 43.0, y: 41.5 },
           { x: 3.0, y: 17.0 },
           { x: 28.0, y: 3.0 },
           { x: 90.0, y: 40.0 },
@@ -940,7 +941,7 @@ const positionOverrides = {
       thickness: "controleerbaar op geel, met nadruk op de lange loop van bal 2",
       speed: "ongeveer 7.4 / 10 op de powerbalk",
       explanation:
-        "De speelbal maakt rechts de carambole. Bal 2 loopt via de linkerzijde en bovenkant breed terug richting de rechter korte band.",
+        "De speelbal maakt rechts de carambole. Bal 2 loopt eerst omlaag en daarna via de linkerzijde en bovenkant breed terug richting de rechter korte band.",
       technicalDetails: [
         "Effect: laag, ongeveer stand 0.8.",
         "Power: ongeveer 7.4 / 10.",
@@ -1044,8 +1045,8 @@ const positionOverrides = {
         ball: "second",
         points: [
           { x: 79.0, y: 18.5 },
-          { x: 2.5, y: 11.5 },
           { x: 39.0, y: 3.0 },
+          { x: 2.5, y: 11.5 },
           { x: 93.7, y: 42.8 },
         ],
       },
@@ -1062,7 +1063,7 @@ const positionOverrides = {
       thickness: "dun tot halfvol, zodat bal 2 de brede route houdt",
       speed: "ongeveer 5.5 / 10 op de powerbalk",
       explanation:
-        "De speelbal gaat van geel naar rood langs de rechterzijde. Bal 2 gebruikt de linker en bovenste band om terug naar het verzamelgebied te komen.",
+        "De speelbal gaat van geel naar rood langs de rechterzijde. Bal 2 vertrekt eerst omhoog, gebruikt daarna de linker band en loopt terug naar het verzamelgebied.",
       technicalDetails: [
         "Effect: laag, ongeveer stand 1.4.",
         "Power: ongeveer 5.5 / 10.",
@@ -1166,7 +1167,10 @@ const positionOverrides = {
         points: [
           { x: 12.3, y: 7.8 },
           { x: 25.0, y: 7.8 },
-          { x: 62.0, y: 44.0 },
+          { x: 33.0, y: 42.5 },
+          { x: 2.5, y: 24.0 },
+          { x: 45.0, y: 3.0 },
+          { x: 95.0, y: 34.0 },
           { x: 90.4, y: 7.7 },
         ],
       },
@@ -1192,7 +1196,7 @@ const positionOverrides = {
       thickness: "voldoende vol om de lange doorloop te dragen",
       speed: "ongeveer 8.3 / 10 op de powerbalk",
       explanation:
-        "De speelbal vertrekt linksboven en gebruikt een lange route om rood rechtsboven te bereiken. Bal 2 krijgt eveneens een brede terugloop; de extra hulplijn markeert de lange bandroute uit het bronbeeld.",
+        "De speelbal vertrekt linksboven, raakt geel aan de rechterkant en gebruikt daarna de bandenroute onder, links, boven en rechts om rood rechtsboven te bereiken. Bal 2 krijgt eveneens een brede terugloop.",
       technicalDetails: [
         "Effect: laag-links, ongeveer stand 1.3.",
         "Power: ongeveer 8.3 / 10.",
@@ -1222,7 +1226,7 @@ const positionOverrides = {
       {
         ball: "stick",
         points: [
-          { x: 88.0, y: 15.0 },
+          { x: 99.0, y: 10.5 },
           { x: 76.5, y: 36.1 },
         ],
       },
@@ -1296,7 +1300,8 @@ const positionOverrides = {
         points: [
           { x: 56.6, y: 22.6 },
           { x: 38.4, y: 6.7 },
-          { x: 72.0, y: 49.0 },
+          { x: 47.0, y: 14.0 },
+          { x: 84.0, y: 48.0 },
           { x: 92.6, y: 41.5 },
         ],
       },
@@ -1305,8 +1310,8 @@ const positionOverrides = {
         points: [
           { x: 38.4, y: 6.7 },
           { x: 2.5, y: 10.0 },
-          { x: 30.0, y: 3.0 },
-          { x: 88.0, y: 42.0 },
+          { x: 78.0, y: 48.0 },
+          { x: 89.0, y: 41.0 },
         ],
       },
       {
@@ -1322,7 +1327,7 @@ const positionOverrides = {
       thickness: "voldoende dun om de speelbal lang te laten doorvallen",
       speed: "ongeveer 5.8 / 10 op de powerbalk",
       explanation:
-        "De speelbal loopt na het contact met bal 2 naar de onderkant en vervolgens richting rood. Bal 2 gebruikt links en boven om terug naar rechts te komen.",
+        "De speelbal loopt na het contact met bal 2 eerst naar rechts en daarna naar de onderband bij rood. Bal 2 vertrekt goed naar links en gaat na de linker band door naar de onderband bij de rode bal.",
       technicalDetails: [
         "Effect: laag-rechts, ongeveer stand 1.5.",
         "Power: ongeveer 5.8 / 10.",
@@ -1360,9 +1365,9 @@ const positionOverrides = {
         ball: "cue",
         points: [
           { x: 79.9, y: 15.1 },
+          { x: 96.0, y: 29.5 },
+          { x: 89.5, y: 46.5 },
           { x: 84.2, y: 38.3 },
-          { x: 89.0, y: 48.0 },
-          { x: 96.0, y: 36.0 },
           { x: 92.9, y: 8.9 },
         ],
       },
@@ -1372,7 +1377,7 @@ const positionOverrides = {
           { x: 84.2, y: 38.3 },
           { x: 2.5, y: 23.5 },
           { x: 33.0, y: 3.0 },
-          { x: 85.0, y: 39.0 },
+          { x: 92.0, y: 41.5 },
         ],
       },
       {
@@ -1388,7 +1393,7 @@ const positionOverrides = {
       thickness: "dun genoeg om de knik naar onder te krijgen",
       speed: "ongeveer 6.9 / 10 op de powerbalk",
       explanation:
-        "De speelbal gaat na het eerste contact naar de onderste rechterzone en komt daarna terug omhoog naar rood. Bal 2 loopt breed over links en boven terug.",
+        "De speelbal gaat eerst via de rechter korte band en de onderste lange band naar geel, en loopt daarna door naar rood. Bal 2 loopt na de linker korte band door naar de rechter onderzone.",
       technicalDetails: [
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Power: ongeveer 6.9 / 10.",
@@ -1486,6 +1491,7 @@ const positionOverrides = {
         points: [
           { x: 80.1, y: 30.5 },
           { x: 61.7, y: 43.6 },
+          { x: 64.0, y: 47.0 },
           { x: 91.7, y: 7.1 },
         ],
       },
@@ -1511,7 +1517,7 @@ const positionOverrides = {
       thickness: "voldoende vol voor de lange witte doorloop",
       speed: "ongeveer 5.4 / 10 op de powerbalk",
       explanation:
-        "De speelbal loopt vanuit de onderste middenzone via bal 2 naar rood rechtsboven. Bal 2 neemt de grote linker route en komt terug naar de bovenste rechterzone.",
+        "De speelbal loopt via bal 2 eerst nog omlaag naar rechts en komt daarna omhoog naar rood rechtsboven. Bal 2 neemt de grote linker route en komt terug naar de bovenste rechterzone.",
       technicalDetails: [
         "Effect: laag-links, ongeveer stand 1.3.",
         "Power: ongeveer 5.4 / 10.",
