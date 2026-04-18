@@ -306,7 +306,7 @@ main {
 }
 
 .line-overlay {
-  opacity: 0.92;
+  opacity: 1;
   pointer-events: none;
 }
 

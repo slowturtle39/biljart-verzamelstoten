@@ -342,7 +342,7 @@ function getConvertedDiagramLabel(position) {
   }
 
   if (position.lineStatus === "source-overlay") {
-    return "Looplijnen als bron-overlay gecalibreerd op de witte railpunten";
+    return "Verdikte bronlijnen gecalibreerd op de witte railpunten";
   }
 
   return "Omgezet naar app-diagram";

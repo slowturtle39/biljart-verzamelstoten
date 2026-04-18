@@ -59,10 +59,10 @@ duidelijkere PDF-render gelezen, maar de originele PDF-afbeelding blijft per
 positie beschikbaar als broncontrole.
 
 De looplijnen worden niet meer als losse geraden vectorsegmenten opgeslagen.
-De generator maakt per positie een transparante bron-overlay in
+De generator maakt per positie een verdikte bron-overlay in
 `assets/line-overlays/`, gecalibreerd op de witte railpunten van het groene
-simulatiediagram. Dat voorkomt dat losse lijnfragmenten verkeerd aan elkaar
-worden geplakt.
+simulatiediagram. Wit/geel komt uit de bronlijnen; een bruine keulijn wordt als
+SVG-vector toegevoegd wanneer die betrouwbaar wordt herkend.
 
 ## Gebruiken
 

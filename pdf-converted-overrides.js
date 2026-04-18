@@ -21,7 +21,22 @@ const generatedPositionOverrides = {
         "y": 42.4
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 97.5,
+            "y": 2.2
+          },
+          {
+            "x": 100,
+            "y": 47.6
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -29,7 +44,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.4 / 10.",
         "Effect: laag-links, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -67,7 +82,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.7 / 10.",
         "Effect: links, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -105,7 +120,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.9 / 10.",
         "Effect: laag-links, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -135,7 +150,22 @@ const generatedPositionOverrides = {
         "y": 39.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 54.5,
+            "y": 8.9
+          },
+          {
+            "x": 4.1,
+            "y": 14.4
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -143,7 +173,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.5 / 10.",
         "Effect: laag, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -173,7 +203,22 @@ const generatedPositionOverrides = {
         "y": 42.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 55.8,
+            "y": 9.5
+          },
+          {
+            "x": 7.1,
+            "y": 11.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -181,7 +226,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.2 / 10.",
         "Effect: laag, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -211,7 +256,22 @@ const generatedPositionOverrides = {
         "y": 24.4
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 99.0,
+            "y": 29.2
+          },
+          {
+            "x": 99.8,
+            "y": 42.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -219,7 +279,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.8 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -257,7 +317,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.5 / 10.",
         "Effect: laag, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -287,7 +347,22 @@ const generatedPositionOverrides = {
         "y": 42.4
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 98.9,
+            "y": 23.9
+          },
+          {
+            "x": 100,
+            "y": 47.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -295,7 +370,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.4 / 10.",
         "Effect: laag-links, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -333,7 +408,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.6 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -363,7 +438,22 @@ const generatedPositionOverrides = {
         "y": 20.3
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 86.2,
+            "y": 33.4
+          },
+          {
+            "x": 84.4,
+            "y": 48.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -371,7 +461,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.6 / 10.",
         "Effect: links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -408,7 +498,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.4 / 10.",
         "Effect: laag, ongeveer stand 0.8.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -446,7 +536,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -476,7 +566,22 @@ const generatedPositionOverrides = {
         "y": 42.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 100,
+            "y": 47.4
+          },
+          {
+            "x": 0.5,
+            "y": 46.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -484,7 +589,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.5 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -514,7 +619,22 @@ const generatedPositionOverrides = {
         "y": 42.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 97.6,
+            "y": 2.3
+          },
+          {
+            "x": 100,
+            "y": 47.7
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -522,7 +642,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.9 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -560,7 +680,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.3 / 10.",
         "Effect: laag-links, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -590,7 +710,22 @@ const generatedPositionOverrides = {
         "y": 42.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 98.0,
+            "y": 14.8
+          },
+          {
+            "x": 80.2,
+            "y": 32.7
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -598,7 +733,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.2 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -627,7 +762,22 @@ const generatedPositionOverrides = {
         "y": 41.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 97.2,
+            "y": 47.3
+          },
+          {
+            "x": 62.7,
+            "y": 22.3
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -635,7 +785,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.8 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -672,7 +822,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.9 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -710,7 +860,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.2 / 10.",
         "Effect: rechts, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -740,7 +890,22 @@ const generatedPositionOverrides = {
         "y": 7.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 98.2,
+            "y": 18.3
+          },
+          {
+            "x": 85.1,
+            "y": 28.4
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -748,7 +913,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.4 / 10.",
         "Effect: laag-links, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -777,7 +942,22 @@ const generatedPositionOverrides = {
         "y": 7.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 56.3,
+            "y": 47.2
+          },
+          {
+            "x": 48.8,
+            "y": 29.2
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -785,7 +965,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.6 / 10.",
         "Effect: laag, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -822,7 +1002,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.2 / 10.",
         "Effect: laag, ongeveer stand 1.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -860,7 +1040,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -890,7 +1070,22 @@ const generatedPositionOverrides = {
         "y": 41.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 61.4,
+            "y": 29.8
+          },
+          {
+            "x": 37.1,
+            "y": 47.2
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -898,7 +1093,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.1 / 10.",
         "Effect: laag, ongeveer stand 1.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -935,7 +1130,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.6 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -973,7 +1168,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.4 / 10.",
         "Effect: rechts, ongeveer stand 0.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1011,7 +1206,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.4 / 10.",
         "Effect: midden, ongeveer stand 0.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1049,7 +1244,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.6 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.6.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1087,7 +1282,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.3 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1117,7 +1312,22 @@ const generatedPositionOverrides = {
         "y": 43.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 100,
+            "y": 18.5
+          },
+          {
+            "x": 67.3,
+            "y": 24.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1125,7 +1335,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.6 / 10.",
         "Effect: rechts, ongeveer stand 0.6.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -1154,7 +1364,22 @@ const generatedPositionOverrides = {
         "y": 42.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 70.3,
+            "y": 46.1
+          },
+          {
+            "x": 37.8,
+            "y": 33.7
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1162,7 +1387,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.7 / 10.",
         "Effect: midden, ongeveer stand 0.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -1199,7 +1424,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.5 / 10.",
         "Effect: links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1237,7 +1462,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.1 / 10.",
         "Effect: midden, ongeveer stand 0.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1267,7 +1492,22 @@ const generatedPositionOverrides = {
         "y": 43.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 93.2,
+            "y": 16.3
+          },
+          {
+            "x": 73.5,
+            "y": 3.6
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1275,7 +1515,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1305,7 +1545,22 @@ const generatedPositionOverrides = {
         "y": 43.3
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 83.1,
+            "y": 3.0
+          },
+          {
+            "x": 99.7,
+            "y": 17.3
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1313,7 +1568,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1343,7 +1598,22 @@ const generatedPositionOverrides = {
         "y": 16.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 97.0,
+            "y": 8.6
+          },
+          {
+            "x": 82.0,
+            "y": 6.4
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1351,7 +1621,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.7 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -1388,7 +1658,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.6 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1426,7 +1696,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.2 / 10.",
         "Effect: links, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1456,7 +1726,22 @@ const generatedPositionOverrides = {
         "y": 24.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 57.7,
+            "y": 8.4
+          },
+          {
+            "x": 47.8,
+            "y": 3.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1464,7 +1749,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.5 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1494,7 +1779,22 @@ const generatedPositionOverrides = {
         "y": 34.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 29.2,
+            "y": 31.8
+          },
+          {
+            "x": 10.7,
+            "y": 45.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1502,7 +1802,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.5 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -1539,7 +1839,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.8 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1569,7 +1869,22 @@ const generatedPositionOverrides = {
         "y": 6.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 87.2,
+            "y": 2.5
+          },
+          {
+            "x": 79.9,
+            "y": 6.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1577,7 +1892,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag-links, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -1614,7 +1929,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.0 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1652,7 +1967,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 2.4 / 10.",
         "Effect: midden, ongeveer stand 0.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1690,7 +2005,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.9 / 10.",
         "Effect: laag-links, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1720,7 +2035,22 @@ const generatedPositionOverrides = {
         "y": 42.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 94.0,
+            "y": 7.0
+          },
+          {
+            "x": 61.1,
+            "y": 5.7
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1728,7 +2058,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.5 / 10.",
         "Effect: laag, ongeveer stand 1.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -1765,7 +2095,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.8 / 10.",
         "Effect: laag, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1803,7 +2133,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag, ongeveer stand 1.6.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1833,7 +2163,22 @@ const generatedPositionOverrides = {
         "y": 7.3
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 52.0,
+            "y": 16.5
+          },
+          {
+            "x": 33.9,
+            "y": 4.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -1841,7 +2186,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.6 / 10.",
         "Effect: midden, ongeveer stand 0.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -1878,7 +2223,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1916,7 +2261,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.0 / 10.",
         "Effect: links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1954,7 +2299,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.0 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -1992,7 +2337,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.8 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2030,7 +2375,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.9 / 10.",
         "Effect: midden, ongeveer stand 0.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2068,7 +2413,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.4 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2106,7 +2451,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.9 / 10.",
         "Effect: rechts, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2136,7 +2481,22 @@ const generatedPositionOverrides = {
         "y": 37.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 97.5,
+            "y": 2.3
+          },
+          {
+            "x": 100,
+            "y": 47.6
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -2144,7 +2504,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.8 / 10.",
         "Effect: rechts, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2174,7 +2534,22 @@ const generatedPositionOverrides = {
         "y": 42.4
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 37.1,
+            "y": 4.1
+          },
+          {
+            "x": 29.2,
+            "y": 17.6
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -2182,7 +2557,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.4 / 10.",
         "Effect: laag-links, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -2219,7 +2594,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.6 / 10.",
         "Effect: rechts, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2257,7 +2632,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.8 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2287,7 +2662,22 @@ const generatedPositionOverrides = {
         "y": 16.0
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 83.4,
+            "y": 3.0
+          },
+          {
+            "x": 69.7,
+            "y": 6.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -2295,7 +2685,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -2324,7 +2714,22 @@ const generatedPositionOverrides = {
         "y": 12.4
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 88.2,
+            "y": 3.2
+          },
+          {
+            "x": 70.8,
+            "y": 5.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -2332,7 +2737,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.0 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -2369,7 +2774,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2407,7 +2812,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.5 / 10.",
         "Effect: laag-links, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2437,7 +2842,22 @@ const generatedPositionOverrides = {
         "y": 8.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 70.4,
+            "y": 47.3
+          },
+          {
+            "x": 57.2,
+            "y": 23.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -2445,7 +2865,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.6 / 10.",
         "Effect: links, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -2482,7 +2902,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.1 / 10.",
         "Effect: laag-links, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2520,7 +2940,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.1 / 10.",
         "Effect: laag-links, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2558,7 +2978,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.2 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2596,7 +3016,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.1 / 10.",
         "Effect: midden, ongeveer stand 0.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2634,7 +3054,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.5 / 10.",
         "Effect: rechts, ongeveer stand 0.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2672,7 +3092,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.4 / 10.",
         "Effect: laag, ongeveer stand 0.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2710,7 +3130,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.0 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2748,7 +3168,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.8 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2786,7 +3206,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.1 / 10.",
         "Effect: links, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2824,7 +3244,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.8 / 10.",
         "Effect: links, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -2854,7 +3274,22 @@ const generatedPositionOverrides = {
         "y": 6.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 43.6,
+            "y": 20.8
+          },
+          {
+            "x": 31.3,
+            "y": 2.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -2862,7 +3297,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.6 / 10.",
         "Effect: midden, ongeveer stand 0.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -2891,7 +3326,22 @@ const generatedPositionOverrides = {
         "y": 24.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 33.6,
+            "y": 14.0
+          },
+          {
+            "x": 17.8,
+            "y": 2.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -2899,7 +3349,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 2.7 / 10.",
         "Effect: links, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -2928,7 +3378,22 @@ const generatedPositionOverrides = {
         "y": 24.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 30.8,
+            "y": 15.6
+          },
+          {
+            "x": 3.0,
+            "y": 3.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -2936,7 +3401,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.5 / 10.",
         "Effect: rechts, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -2973,7 +3438,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.0 / 10.",
         "Effect: laag-links, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3011,7 +3476,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.4 / 10.",
         "Effect: laag-links, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3049,7 +3514,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.9 / 10.",
         "Effect: rechts, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3087,7 +3552,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.8 / 10.",
         "Effect: laag-links, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3125,7 +3590,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.0 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3155,7 +3620,22 @@ const generatedPositionOverrides = {
         "y": 31.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 85.1,
+            "y": 40.7
+          },
+          {
+            "x": 49.6,
+            "y": 22.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3163,7 +3643,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 2.3 / 10.",
         "Effect: midden, ongeveer stand 0.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3200,7 +3680,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.9 / 10.",
         "Effect: laag, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3238,7 +3718,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 2.4 / 10.",
         "Effect: rechts, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3268,7 +3748,22 @@ const generatedPositionOverrides = {
         "y": 37.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 89.7,
+            "y": 29.7
+          },
+          {
+            "x": 70.8,
+            "y": 4.4
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3276,7 +3771,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 2.4 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3313,7 +3808,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.0 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3343,7 +3838,22 @@ const generatedPositionOverrides = {
         "y": 7.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 74.0,
+            "y": 20.3
+          },
+          {
+            "x": 63.9,
+            "y": 2.5
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3351,7 +3861,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.8 / 10.",
         "Effect: midden, ongeveer stand 0.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3380,7 +3890,22 @@ const generatedPositionOverrides = {
         "y": 7.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 73.6,
+            "y": 19.7
+          },
+          {
+            "x": 62.8,
+            "y": 2.5
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3388,7 +3913,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.7 / 10.",
         "Effect: rechts, ongeveer stand 0.8.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3417,7 +3942,22 @@ const generatedPositionOverrides = {
         "y": 15.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 98.7,
+            "y": 24.5
+          },
+          {
+            "x": 76.0,
+            "y": 12.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3425,7 +3965,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.9 / 10.",
         "Effect: laag-rechts, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3454,7 +3994,22 @@ const generatedPositionOverrides = {
         "y": 43.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 99.8,
+            "y": 43.1
+          },
+          {
+            "x": 68.7,
+            "y": 33.2
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3462,7 +4017,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.7 / 10.",
         "Effect: laag, ongeveer stand 1.6.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3491,7 +4046,22 @@ const generatedPositionOverrides = {
         "y": 40.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 99.6,
+            "y": 39.8
+          },
+          {
+            "x": 76.9,
+            "y": 34.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3499,7 +4069,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag-links, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3536,7 +4106,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.6 / 10.",
         "Effect: rechts, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3566,7 +4136,22 @@ const generatedPositionOverrides = {
         "y": 41.4
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 33.9,
+            "y": 18.8
+          },
+          {
+            "x": 18.6,
+            "y": 3.4
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3574,7 +4159,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.9 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3603,7 +4188,22 @@ const generatedPositionOverrides = {
         "y": 42.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 44.5,
+            "y": 24.6
+          },
+          {
+            "x": 20.3,
+            "y": 3.3
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3611,7 +4211,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.6 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3640,7 +4240,22 @@ const generatedPositionOverrides = {
         "y": 10.0
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 26.2,
+            "y": 13.4
+          },
+          {
+            "x": 2.8,
+            "y": 19.4
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3648,7 +4263,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.3 / 10.",
         "Effect: rechts, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3677,7 +4292,22 @@ const generatedPositionOverrides = {
         "y": 24.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 70.5,
+            "y": 19.4
+          },
+          {
+            "x": 4.5,
+            "y": 9.2
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3685,7 +4315,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.1 / 10.",
         "Effect: laag-links, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3714,7 +4344,22 @@ const generatedPositionOverrides = {
         "y": 19.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 62.8,
+            "y": 17.4
+          },
+          {
+            "x": 47.1,
+            "y": 2.7
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3722,7 +4367,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.0 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3751,7 +4396,22 @@ const generatedPositionOverrides = {
         "y": 11.0
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 55.1,
+            "y": 19.8
+          },
+          {
+            "x": 18.6,
+            "y": 1.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3759,7 +4419,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.0 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3796,7 +4456,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.4 / 10.",
         "Effect: links, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -3826,7 +4486,22 @@ const generatedPositionOverrides = {
         "y": 19.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 78.6,
+            "y": 8.1
+          },
+          {
+            "x": 11.3,
+            "y": 14.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3834,7 +4509,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.1 / 10.",
         "Effect: midden, ongeveer stand 0.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3863,7 +4538,22 @@ const generatedPositionOverrides = {
         "y": 19.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 79.7,
+            "y": 5.7
+          },
+          {
+            "x": 66.9,
+            "y": 2.5
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3871,7 +4561,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.2 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3900,7 +4590,22 @@ const generatedPositionOverrides = {
         "y": 41.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 99.3,
+            "y": 33.3
+          },
+          {
+            "x": 80.3,
+            "y": 18.6
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3908,7 +4613,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.2 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3937,7 +4642,22 @@ const generatedPositionOverrides = {
         "y": 24.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 84.0,
+            "y": 45.0
+          },
+          {
+            "x": 47.6,
+            "y": 23.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3945,7 +4665,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.0 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -3974,7 +4694,22 @@ const generatedPositionOverrides = {
         "y": 6.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 92.7,
+            "y": 22.2
+          },
+          {
+            "x": 25.9,
+            "y": 5.7
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -3982,7 +4717,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.5 / 10.",
         "Effect: rechts, ongeveer stand 0.8.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4012,7 +4747,22 @@ const generatedPositionOverrides = {
         "y": 24.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 49.7,
+            "y": 14.6
+          },
+          {
+            "x": 29.5,
+            "y": 2.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4020,7 +4770,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.3 / 10.",
         "Effect: links, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4049,7 +4799,22 @@ const generatedPositionOverrides = {
         "y": 22.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 90.8,
+            "y": 33.8
+          },
+          {
+            "x": 84.1,
+            "y": 47.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4057,7 +4822,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 2.0 / 10.",
         "Effect: midden, ongeveer stand 0.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4086,7 +4851,22 @@ const generatedPositionOverrides = {
         "y": 20.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 89.8,
+            "y": 21.8
+          },
+          {
+            "x": 72.4,
+            "y": 47.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4094,7 +4874,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 2.9 / 10.",
         "Effect: midden, ongeveer stand 0.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4131,7 +4911,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.9 / 10.",
         "Effect: laag, ongeveer stand 1.6.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4161,7 +4941,22 @@ const generatedPositionOverrides = {
         "y": 24.0
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 99.2,
+            "y": 47.7
+          },
+          {
+            "x": 1.4,
+            "y": 46.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4169,7 +4964,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.6 / 10.",
         "Effect: laag, ongeveer stand 1.5.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4207,7 +5002,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.2 / 10.",
         "Effect: laag, ongeveer stand 1.6.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4237,7 +5032,22 @@ const generatedPositionOverrides = {
         "y": 42.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 34.5,
+            "y": 6.4
+          },
+          {
+            "x": 2.9,
+            "y": 4.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4245,7 +5055,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.9 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4275,7 +5085,22 @@ const generatedPositionOverrides = {
         "y": 24.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 74.7,
+            "y": 39.3
+          },
+          {
+            "x": 65.4,
+            "y": 47.6
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4283,7 +5108,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4312,7 +5137,22 @@ const generatedPositionOverrides = {
         "y": 24.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 73.6,
+            "y": 47.4
+          },
+          {
+            "x": 62.8,
+            "y": 36.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4320,7 +5160,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.1 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4349,7 +5189,22 @@ const generatedPositionOverrides = {
         "y": 41.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 51.9,
+            "y": 4.5
+          },
+          {
+            "x": 3.9,
+            "y": 38.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4357,7 +5212,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.5 / 10.",
         "Effect: laag-links, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4387,7 +5242,22 @@ const generatedPositionOverrides = {
         "y": 35.0
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 96.8,
+            "y": 40.7
+          },
+          {
+            "x": 90.8,
+            "y": 24.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4395,7 +5265,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.8 / 10.",
         "Effect: rechts, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4424,7 +5294,22 @@ const generatedPositionOverrides = {
         "y": 42.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 79.2,
+            "y": 44.8
+          },
+          {
+            "x": 4.2,
+            "y": 37.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4432,7 +5317,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.4 / 10.",
         "Effect: midden, ongeveer stand 0.6.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4462,7 +5347,22 @@ const generatedPositionOverrides = {
         "y": 41.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 99.2,
+            "y": 33.5
+          },
+          {
+            "x": 82.8,
+            "y": 37.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4470,7 +5370,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.5 / 10.",
         "Effect: links, ongeveer stand 0.8.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4499,7 +5399,22 @@ const generatedPositionOverrides = {
         "y": 41.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 100,
+            "y": 46.0
+          },
+          {
+            "x": 91.6,
+            "y": 31.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4507,7 +5422,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.1 / 10.",
         "Effect: laag-links, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4536,7 +5451,22 @@ const generatedPositionOverrides = {
         "y": 17.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 100,
+            "y": 47.9
+          },
+          {
+            "x": 0,
+            "y": 47.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4544,7 +5474,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 2.7 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4574,7 +5504,22 @@ const generatedPositionOverrides = {
         "y": 24.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 96.4,
+            "y": 33.1
+          },
+          {
+            "x": 79.4,
+            "y": 8.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4582,7 +5527,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.4 / 10.",
         "Effect: laag, ongeveer stand 0.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4611,7 +5556,22 @@ const generatedPositionOverrides = {
         "y": 7.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 52.0,
+            "y": 18.1
+          },
+          {
+            "x": 2.9,
+            "y": 5.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4619,7 +5579,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.8 / 10.",
         "Effect: laag-links, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4648,7 +5608,22 @@ const generatedPositionOverrides = {
         "y": 29.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 88.1,
+            "y": 48.0
+          },
+          {
+            "x": 62.6,
+            "y": 32.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4656,7 +5631,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.4 / 10.",
         "Effect: rechts, ongeveer stand 0.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4685,7 +5660,22 @@ const generatedPositionOverrides = {
         "y": 6.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 93.1,
+            "y": 3.5
+          },
+          {
+            "x": 31.6,
+            "y": 6.2
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4693,7 +5683,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.9 / 10.",
         "Effect: links, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4722,7 +5712,22 @@ const generatedPositionOverrides = {
         "y": 27.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 79.4,
+            "y": 27.8
+          },
+          {
+            "x": 73.3,
+            "y": 49.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4730,7 +5735,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.3 / 10.",
         "Effect: laag-links, ongeveer stand 1.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4767,7 +5772,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.0 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4797,7 +5802,22 @@ const generatedPositionOverrides = {
         "y": 40.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 16.2,
+            "y": 19.6
+          },
+          {
+            "x": 3.0,
+            "y": 3.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4805,7 +5825,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.7 / 10.",
         "Effect: laag-links, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4842,7 +5862,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.9 / 10.",
         "Effect: links, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -4872,7 +5892,22 @@ const generatedPositionOverrides = {
         "y": 41.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 88.5,
+            "y": 27.9
+          },
+          {
+            "x": 58.1,
+            "y": 23.4
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4880,7 +5915,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.7 / 10.",
         "Effect: laag-links, ongeveer stand 1.6.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4909,7 +5944,22 @@ const generatedPositionOverrides = {
         "y": 6.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 97.9,
+            "y": 9.8
+          },
+          {
+            "x": 82.6,
+            "y": 28.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4917,7 +5967,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 4.8 / 10.",
         "Effect: rechts, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4946,7 +5996,22 @@ const generatedPositionOverrides = {
         "y": 41.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 25.9,
+            "y": 47.1
+          },
+          {
+            "x": 21.6,
+            "y": 32.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -4954,7 +6019,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.2 / 10.",
         "Effect: rechts, ongeveer stand 0.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -4991,7 +6056,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.9 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5029,7 +6094,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.7 / 10.",
         "Effect: rechts, ongeveer stand 0.8.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5059,7 +6124,22 @@ const generatedPositionOverrides = {
         "y": 8.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 99.0,
+            "y": 47.7
+          },
+          {
+            "x": 1.4,
+            "y": 46.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5067,7 +6147,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.8 / 10.",
         "Effect: links, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5097,7 +6177,22 @@ const generatedPositionOverrides = {
         "y": 42.0
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 25.4,
+            "y": 40.3
+          },
+          {
+            "x": 13.7,
+            "y": 38.4
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5105,7 +6200,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.9 / 10.",
         "Effect: links, ongeveer stand 0.8.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5135,7 +6230,22 @@ const generatedPositionOverrides = {
         "y": 42.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 38.0,
+            "y": 37.0
+          },
+          {
+            "x": 25.0,
+            "y": 43.7
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5143,7 +6253,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.2 / 10.",
         "Effect: laag-links, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5173,7 +6283,22 @@ const generatedPositionOverrides = {
         "y": 42.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 98.4,
+            "y": 18.6
+          },
+          {
+            "x": 56.3,
+            "y": 19.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5181,7 +6306,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.8 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5210,7 +6335,22 @@ const generatedPositionOverrides = {
         "y": 7.0
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 97.9,
+            "y": 10.1
+          },
+          {
+            "x": 58.6,
+            "y": 13.4
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5218,7 +6358,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 9.2 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5255,7 +6395,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.1 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5285,7 +6425,22 @@ const generatedPositionOverrides = {
         "y": 42.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 58.2,
+            "y": 47.1
+          },
+          {
+            "x": 50.3,
+            "y": 29.6
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5293,7 +6448,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.3 / 10.",
         "Effect: laag-links, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5322,7 +6477,22 @@ const generatedPositionOverrides = {
         "y": 34.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 48.0,
+            "y": 20.6
+          },
+          {
+            "x": 2.9,
+            "y": 6.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5330,7 +6500,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.0 / 10.",
         "Effect: links, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5359,7 +6529,22 @@ const generatedPositionOverrides = {
         "y": 33.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 51.4,
+            "y": 17.7
+          },
+          {
+            "x": 13.7,
+            "y": 1.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5367,7 +6552,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.5 / 10.",
         "Effect: rechts, ongeveer stand 1.1.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5396,7 +6581,22 @@ const generatedPositionOverrides = {
         "y": 7.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 25.3,
+            "y": 15.1
+          },
+          {
+            "x": 2.5,
+            "y": 12.7
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5404,7 +6604,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.9 / 10.",
         "Effect: laag-links, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5441,7 +6641,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.0 / 10.",
         "Effect: links, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5479,7 +6679,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.5 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5517,7 +6717,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 3.8 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5555,7 +6755,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.0 / 10.",
         "Effect: laag-links, ongeveer stand 3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5585,7 +6785,22 @@ const generatedPositionOverrides = {
         "y": 24.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 17.6,
+            "y": 17.6
+          },
+          {
+            "x": 2.3,
+            "y": 15.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5593,7 +6808,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.5 / 10.",
         "Effect: laag, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5630,7 +6845,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.9 / 10.",
         "Effect: laag, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5660,7 +6875,22 @@ const generatedPositionOverrides = {
         "y": 36.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 100,
+            "y": 47.4
+          },
+          {
+            "x": 0.6,
+            "y": 47.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5668,7 +6898,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.9 / 10.",
         "Effect: laag, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5698,7 +6928,22 @@ const generatedPositionOverrides = {
         "y": 11.8
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 63.1,
+            "y": 47.5
+          },
+          {
+            "x": 45.6,
+            "y": 37.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5706,7 +6951,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.2 / 10.",
         "Effect: rechts, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5735,7 +6980,22 @@ const generatedPositionOverrides = {
         "y": 19.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 100,
+            "y": 47.6
+          },
+          {
+            "x": 0.6,
+            "y": 47.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5743,7 +7003,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.5 / 10.",
         "Effect: rechts, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5781,7 +7041,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 7.8 / 10.",
         "Effect: rechts, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5811,7 +7071,22 @@ const generatedPositionOverrides = {
         "y": 8.3
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 97.5,
+            "y": 2.7
+          },
+          {
+            "x": 100,
+            "y": 47.6
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5819,7 +7094,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.7 / 10.",
         "Effect: rechts, ongeveer stand 0.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5849,7 +7124,22 @@ const generatedPositionOverrides = {
         "y": 42.1
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 49.3,
+            "y": 4.1
+          },
+          {
+            "x": 43.2,
+            "y": 11.3
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5857,7 +7147,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.8 / 10.",
         "Effect: rechts, ongeveer stand 1.0.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5886,7 +7176,22 @@ const generatedPositionOverrides = {
         "y": 24.6
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 93.9,
+            "y": 12.4
+          },
+          {
+            "x": 20.4,
+            "y": 9.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5894,7 +7199,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 9.3 / 10.",
         "Effect: laag, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5924,7 +7229,22 @@ const generatedPositionOverrides = {
         "y": 26.3
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 75.1,
+            "y": 4.1
+          },
+          {
+            "x": 12.9,
+            "y": 24.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5932,7 +7252,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.0 / 10.",
         "Effect: zie de effectbal in het bronbeeld.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -5961,7 +7281,22 @@ const generatedPositionOverrides = {
         "y": 31.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 97.5,
+            "y": 2.7
+          },
+          {
+            "x": 99.4,
+            "y": 35.9
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -5969,7 +7304,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.3 / 10.",
         "Effect: laag, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -5999,7 +7334,22 @@ const generatedPositionOverrides = {
         "y": 42.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 66.1,
+            "y": 50
+          },
+          {
+            "x": 17.7,
+            "y": 16.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -6007,7 +7357,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 5.9 / 10.",
         "Effect: laag, ongeveer stand 1.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -6036,7 +7386,22 @@ const generatedPositionOverrides = {
         "y": 42.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 100,
+            "y": 47.4
+          },
+          {
+            "x": 0.6,
+            "y": 47.0
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -6044,7 +7409,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.0 / 10.",
         "Effect: rechts, ongeveer stand 0.9.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -6074,7 +7439,22 @@ const generatedPositionOverrides = {
         "y": 19.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 90.5,
+            "y": 3.0
+          },
+          {
+            "x": 100,
+            "y": 16.7
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -6082,7 +7462,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.2 / 10.",
         "Effect: links, ongeveer stand 0.7.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -6112,7 +7492,22 @@ const generatedPositionOverrides = {
         "y": 40.3
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 79.2,
+            "y": 3.4
+          },
+          {
+            "x": 6.7,
+            "y": 2.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -6120,7 +7515,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.5 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -6150,7 +7545,22 @@ const generatedPositionOverrides = {
         "y": 41.9
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 77.6,
+            "y": 2.9
+          },
+          {
+            "x": 10.1,
+            "y": 4.5
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -6158,7 +7568,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 8.4 / 10.",
         "Effect: laag, ongeveer stand 1.3.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn."
@@ -6187,7 +7597,22 @@ const generatedPositionOverrides = {
         "y": 18.2
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 68.4,
+            "y": 2.2
+          },
+          {
+            "x": 1.9,
+            "y": 5.1
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -6195,7 +7620,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: zie de powerbalk in het bronbeeld.",
         "Effect: zie de effectbal in het bronbeeld.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -6225,7 +7650,22 @@ const generatedPositionOverrides = {
         "y": 13.5
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 77.9,
+            "y": 3.1
+          },
+          {
+            "x": 9.4,
+            "y": 3.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -6233,7 +7673,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.1 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.4.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -6263,7 +7703,22 @@ const generatedPositionOverrides = {
         "y": 14.7
       }
     },
-    "paths": [],
+    "paths": [
+      {
+        "ball": "stick",
+        "marker": false,
+        "points": [
+          {
+            "x": 79.2,
+            "y": 3.4
+          },
+          {
+            "x": 6.8,
+            "y": 2.8
+          }
+        ]
+      }
+    ],
     "solution": {
       "hitPoint": "Controleer het raakpunt in het originele PDF-diagram; dit veld is nog niet volledig betrouwbaar automatisch uitgelezen.",
       "thickness": "Volg de eerste looplijn richting bal 2; exacte dikte aan tafel controleren.",
@@ -6271,7 +7726,7 @@ const generatedPositionOverrides = {
       "explanation": "Deze tekst is automatisch gegenereerd uit de duidelijkere PDF-render. De beginpositie komt uit het blauwe diagram; de looplijnen, power en effect komen uit de groene simulatie. Gebruik de vergrote bronafbeelding als controle wanneer een lijn of techniekveld twijfelachtig is.",
       "technicalDetails": [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         "Power: ongeveer 6.7 / 10.",
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",

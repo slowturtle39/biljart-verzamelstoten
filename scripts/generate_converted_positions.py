@@ -456,6 +456,7 @@ def write_line_overlay(
     array: np.ndarray,
     green_matrix: np.ndarray,
     green_bed: Box,
+    balls: dict[str, dict[str, float]],
     output_path: Path,
     width: int = 1000,
     height: int = 500,
@@ -492,7 +493,11 @@ def write_line_overlay(
     green = sampled[:, :, 1].astype(np.int16)
     blue = sampled[:, :, 2].astype(np.int16)
 
-    line = (
+    ball_exclusion = np.zeros((height, width), dtype=bool)
+    for ball in balls.values():
+        ball_exclusion |= (grid_x - ball["x"]) ** 2 + (grid_y - ball["y"]) ** 2 <= 3.0**2
+
+    white_line = (
         inner_table
         & (red > 58)
         & (green > 62)
@@ -501,7 +506,15 @@ def write_line_overlay(
         & (np.abs(red - green) < 100)
         & (np.abs(green - blue) < 115)
     )
-    stick = (
+    yellow_line = (
+        inner_table
+        & (red > 95)
+        & (green > 85)
+        & (blue < 105)
+        & ((red + green) > 190)
+        & (np.abs(red - green) < 135)
+    )
+    brown_line = (
         inner_table
         & (red > 78)
         & (green > 40)
@@ -514,36 +527,46 @@ def write_line_overlay(
     # Keep the source looplijnen, but do not copy the full colored balls into the overlay.
     red_ball = (red > 125) & (green < 115) & (blue < 130) & (red > green + 40)
     yellow_ball = (red > 145) & (green > 95) & (blue < 125) & (red > blue + 45) & (green > blue + 35)
-    line &= ~(red_ball | yellow_ball)
+    white_ball = (red > 130) & (green > 130) & (blue > 115) & (np.abs(red - green) < 70)
+    ball_pixels = dilate(red_ball | yellow_ball | white_ball | ball_exclusion, 2)
+    white_line &= ~ball_pixels
+    yellow_line &= ~ball_pixels
+    brown_line &= ~ball_pixels
 
-    cleaned_stick = np.zeros_like(stick)
-    for box in component_boxes(stick, min_area=20):
+    def clean_line_mask(mask: np.ndarray, min_area: int, keep_short: bool = True) -> np.ndarray:
+        cleaned = np.zeros_like(mask)
+        for box in component_boxes(mask, min_area=min_area):
+            top_rail_noise = box.width > width * 0.24 and box.top < height * 0.1
+            bottom_rail_noise = box.width > width * 0.24 and box.bottom > height * 0.9
+            left_rail_noise = box.height > height * 0.2 and box.left < width * 0.07
+            right_rail_noise = box.height > height * 0.2 and box.right > width * 0.93
+            if top_rail_noise or bottom_rail_noise or left_rail_noise or right_rail_noise:
+                continue
+            if not keep_short and max(box.width, box.height) < 16:
+                continue
+            cleaned[box.top : box.bottom, box.left : box.right] |= mask[box.top : box.bottom, box.left : box.right]
+        return cleaned
+
+    cleaned_brown = np.zeros_like(brown_line)
+    for box in component_boxes(brown_line, min_area=20):
         touches_horizontal_rail = box.width > width * 0.28 and (box.top < height * 0.12 or box.bottom > height * 0.88)
         touches_vertical_rail = box.height > height * 0.28 and (box.left < width * 0.08 or box.right > width * 0.92)
         too_large = box.area > width * height * 0.012
         aspect = max(box.width / max(1, box.height), box.height / max(1, box.width))
         if touches_horizontal_rail or touches_vertical_rail or too_large or aspect < 2.0:
             continue
-        cleaned_stick[box.top : box.bottom, box.left : box.right] |= stick[box.top : box.bottom, box.left : box.right]
+        cleaned_brown[box.top : box.bottom, box.left : box.right] |= brown_line[box.top : box.bottom, box.left : box.right]
 
-    cleaned_line = np.zeros_like(line)
-    for box in component_boxes(line, min_area=8):
-        top_rail_noise = box.width > width * 0.24 and box.top < height * 0.1
-        bottom_rail_noise = box.width > width * 0.24 and box.bottom > height * 0.9
-        left_rail_noise = box.height > height * 0.2 and box.left < width * 0.07
-        right_rail_noise = box.height > height * 0.2 and box.right > width * 0.93
-        if top_rail_noise or bottom_rail_noise or left_rail_noise or right_rail_noise:
-            continue
-        cleaned_line[box.top : box.bottom, box.left : box.right] |= line[box.top : box.bottom, box.left : box.right]
-
-    line = dilate(cleaned_line, 1)
-    stick = dilate(cleaned_stick, 1)
+    white_line = dilate(clean_line_mask(white_line, min_area=8), 3)
+    yellow_line = dilate(clean_line_mask(yellow_line, min_area=8), 3)
+    brown_line = dilate(cleaned_brown, 3)
 
     rgba = np.zeros((height, width, 4), dtype=np.uint8)
-    rgba[line] = (255, 255, 255, 175)
-    # Do not copy brown cue/rail pixels into generated positions; they caused
-    # misleading artefacts. The manually corrected example can still carry a
-    # drawn cue line through its vector paths.
+    rgba[white_line] = (255, 255, 255, 235)
+    rgba[yellow_line] = (242, 210, 71, 235)
+    # Brown cue lines are drawn as SVG vectors when the cue/stick detector is
+    # confident enough. Keeping brown pixels in the source overlay also captured
+    # rail texture too often.
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     Image.fromarray(rgba, "RGBA").save(output_path, optimize=True)
@@ -559,7 +582,7 @@ def make_text(power: float | None, spin: str | None, notes: list[str]) -> tuple[
 
     technical_details = [
         "Ballen: automatisch gelezen uit het grote blauwe PDF-diagram.",
-        "Lijnen: als transparante bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
+        "Lijnen: als verdikte bron-overlay uit de groene simulatie overgenomen en per diagram gecalibreerd op de witte railpunten.",
         f"Power: {power_text}.",
         f"Effect: {spin_text}.",
         "Controleer het bronbeeld voor exacte aanspeeldikte, raakpunt en eventuele nuance in de looplijn.",
@@ -598,7 +621,7 @@ def convert_position(position: dict[str, object], scale: float, debug: bool = Fa
     balls, notes = role_balls(color_balls, stick)
     overlay_filename = f"{position['id']}-lines.png"
     overlay_path = OVERLAY_DIR / overlay_filename
-    write_line_overlay(array, green_matrix, green_bed, overlay_path)
+    write_line_overlay(array, green_matrix, green_bed, balls, overlay_path)
     power = estimate_power(array, green_bed)
     spin = estimate_spin(array, green_bed)
     hint, solution = make_text(power, spin, notes)
@@ -612,7 +635,7 @@ def convert_position(position: dict[str, object], scale: float, debug: bool = Fa
         "lineOverlayImage": str(Path("assets") / "line-overlays" / overlay_filename).replace("\\", "/"),
         "hint": hint,
         "balls": balls,
-        "paths": [],
+        "paths": make_paths(stick, []),
         "solution": solution,
     }
 
