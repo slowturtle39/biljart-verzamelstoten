@@ -316,4 +316,572 @@ const positionOverrides = {
       ],
     },
   },
+  "dirk-acx-002": {
+    title: "PDF-positie 2 - handmatig getraceerd",
+    status: "handmatig getraceerd",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-002.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Maak de carambole en houd de drie ballen bij de rechter korte band onder controle.",
+    hint:
+      "Speel met links effect en stevig tempo. De route is handmatig uit het PDF-diagram overgezet; open het bronbeeld bij twijfel over het exacte raakpunt.",
+    balls: {
+      cue: { x: 80.6, y: 9.0 },
+      second: { x: 94.5, y: 18.4 },
+      third: { x: 95.2, y: 44.0 },
+    },
+    paths: [
+      {
+        ball: "stick",
+        points: [
+          { x: 72.8, y: 0.8 },
+          { x: 80.6, y: 9.0 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 80.6, y: 9.0 },
+          { x: 94.5, y: 18.4 },
+          { x: 96.2, y: 30.5 },
+          { x: 95.2, y: 44.0 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 94.5, y: 18.4 },
+          { x: 50.5, y: 43.0 },
+          { x: 2.9, y: 12.5 },
+          { x: 18.0, y: 3.0 },
+          { x: 83.5, y: 43.0 },
+          { x: 96.0, y: 35.0 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 95.2, y: 44.0 },
+          { x: 94.6, y: 42.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "links effect; exacte aanspeeldikte controleren in het bronbeeld",
+      thickness: "dun tot halfvol op geel, afhankelijk van hoeveel tweede-bal-loop je wilt",
+      speed: "ongeveer 7.7 / 10 op de powerbalk",
+      explanation:
+        "De speelbal loopt van wit naar geel en daarna naar rood langs de rechter korte-bandzone. De gele bal wordt over meerdere banden teruggestuurd zodat het verzamelbeeld rechts blijft.",
+      technicalDetails: [
+        "Effect: links, ongeveer stand 1.1.",
+        "Power: ongeveer 7.7 / 10.",
+        "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
+        "Bronbeeld: PDF-positie 2; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-003": {
+    title: "PDF-positie 3 - handmatig getraceerd",
+    status: "handmatig getraceerd",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-003.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Maak de carambole en stuur bal 2 via de lange route terug naar het rechter verzamelgebied.",
+    hint:
+      "Gebruik laag-links effect en een gecontroleerd stevige afstoot. Het bronbeeld blijft leidend voor de precieze dikte.",
+    balls: {
+      cue: { x: 75.7, y: 15.7 },
+      second: { x: 85.8, y: 24.6 },
+      third: { x: 91.6, y: 8.3 },
+    },
+    paths: [
+      {
+        ball: "stick",
+        points: [
+          { x: 66.0, y: 0.8 },
+          { x: 75.7, y: 15.7 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 75.7, y: 15.7 },
+          { x: 85.8, y: 24.6 },
+          { x: 74.8, y: 46.2 },
+          { x: 94.5, y: 5.2 },
+          { x: 91.6, y: 8.3 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 85.8, y: 24.6 },
+          { x: 96.0, y: 26.8 },
+          { x: 49.0, y: 43.0 },
+          { x: 2.5, y: 31.0 },
+          { x: 84.8, y: 4.0 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 91.6, y: 8.3 },
+          { x: 89.5, y: 7.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag-links; raakpunt nog controleren tegen het originele diagram",
+      thickness: "eerder dun op geel om de lange tweede-bal-route ruimte te geven",
+      speed: "ongeveer 6.9 / 10 op de powerbalk",
+      explanation:
+        "De speelbal gebruikt de rechter/bovenkant om rood te bereiken. Bal 2 gaat eerst naar rechts en daarna via links terug richting de verzamelzone.",
+      technicalDetails: [
+        "Effect: laag-links, ongeveer stand 1.4.",
+        "Power: ongeveer 6.9 / 10.",
+        "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
+        "Bronbeeld: PDF-positie 3; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-004": {
+    title: "PDF-positie 4 - handmatig getraceerd",
+    status: "handmatig getraceerd",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-004.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Maak de carambole rechtsboven en laat bal 2 via links teruglopen richting de korte band.",
+    hint:
+      "De keulijn is bijna vlak. Speel met laag effect en houd genoeg tempo voor de lange terugloop van bal 2.",
+    balls: {
+      cue: { x: 70.7, y: 8.7 },
+      second: { x: 92.9, y: 9.7 },
+      third: { x: 93.5, y: 39.7 },
+    },
+    paths: [
+      {
+        ball: "stick",
+        points: [
+          { x: 0.5, y: 8.5 },
+          { x: 70.7, y: 8.7 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 70.7, y: 8.7 },
+          { x: 92.9, y: 9.7 },
+          { x: 95.8, y: 34.0 },
+          { x: 93.5, y: 39.7 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 92.9, y: 9.7 },
+          { x: 2.2, y: 35.0 },
+          { x: 38.0, y: 43.8 },
+          { x: 93.0, y: 35.0 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 93.5, y: 39.7 },
+          { x: 91.8, y: 41.8 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag; exacte dikte controleren in het bronbeeld",
+      thickness: "vrij dun op geel om de speelbal langs rechts naar rood te houden",
+      speed: "ongeveer 7.5 / 10 op de powerbalk",
+      explanation:
+        "De speelbal loopt strak over geel naar rood. Bal 2 neemt de lange route naar links en komt daarna terug richting de rechterkant.",
+      technicalDetails: [
+        "Effect: laag, ongeveer stand 1.1.",
+        "Power: ongeveer 7.5 / 10.",
+        "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
+        "Bronbeeld: PDF-positie 4; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-005": {
+    title: "PDF-positie 5 - handmatig getraceerd",
+    status: "handmatig getraceerd",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-005.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Maak de carambole via de rechterkant en verzamel de loop van bal 2 terug naar beneden/rechts.",
+    hint:
+      "De stoot lijkt op positie 4, maar de hoek op geel is iets anders. Houd de afstoot vlak en beheerst.",
+    balls: {
+      cue: { x: 75.8, y: 12.2 },
+      second: { x: 93.0, y: 12.1 },
+      third: { x: 92.3, y: 42.6 },
+    },
+    paths: [
+      {
+        ball: "stick",
+        points: [
+          { x: 0.5, y: 8.3 },
+          { x: 75.8, y: 12.2 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 75.8, y: 12.2 },
+          { x: 93.0, y: 12.1 },
+          { x: 96.0, y: 30.5 },
+          { x: 92.3, y: 42.6 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 93.0, y: 12.1 },
+          { x: 70.0, y: 2.8 },
+          { x: 2.5, y: 25.5 },
+          { x: 87.0, y: 46.0 },
+          { x: 94.0, y: 42.5 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 92.3, y: 42.6 },
+          { x: 92.0, y: 46.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag; exacte aanspeeldikte controleren in het bronbeeld",
+      thickness: "dun tot halfvol op geel, met nadruk op bal 2 terug laten komen",
+      speed: "ongeveer 7.2 / 10 op de powerbalk",
+      explanation:
+        "De speelbal blijft langs de rechterkant voor de carambole. De gele bal krijgt de lange route via links en onder, zodat hij terugkeert naar de buurt van rood.",
+      technicalDetails: [
+        "Effect: laag, ongeveer stand 1.1.",
+        "Power: ongeveer 7.2 / 10.",
+        "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
+        "Bronbeeld: PDF-positie 5; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-006": {
+    title: "PDF-positie 6 - handmatig getraceerd",
+    status: "handmatig getraceerd",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-006.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Speel de korte carambole rechts en laat bal 2 via een brede bandroute terugkomen.",
+    hint:
+      "Laag effect en middelste kracht. De korte rechterhoek is gevoelig: controleer de bronafbeelding voor de precieze eerste richting.",
+    balls: {
+      cue: { x: 88.0, y: 14.4 },
+      second: { x: 80.5, y: 17.9 },
+      third: { x: 93.9, y: 24.4 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 88.0, y: 14.4 },
+          { x: 80.5, y: 17.9 },
+          { x: 87.0, y: 3.5 },
+          { x: 93.9, y: 24.4 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 80.5, y: 17.9 },
+          { x: 50.0, y: 2.8 },
+          { x: 2.5, y: 27.0 },
+          { x: 27.5, y: 44.0 },
+          { x: 72.0, y: 18.5 },
+          { x: 90.5, y: 24.5 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 93.9, y: 24.4 },
+          { x: 94.5, y: 28.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag; exacte aanspeeldikte controleren in het bronbeeld",
+      thickness: "zuinig op bal 2, zodat de speelbal genoeg controle houdt",
+      speed: "ongeveer 6.8 / 10 op de powerbalk",
+      explanation:
+        "De speelbal maakt de korte carambole in de rechterzone. Bal 2 loopt breed over de tafel en moet terug in dezelfde verzamelrichting komen.",
+      technicalDetails: [
+        "Effect: laag, ongeveer stand 1.4.",
+        "Power: ongeveer 6.8 / 10.",
+        "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
+        "Bronbeeld: PDF-positie 6; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-007": {
+    title: "PDF-positie 7 - handmatig getraceerd",
+    status: "handmatig getraceerd",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-007.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Maak de carambole rechts en laat bal 2 via links/top teruglopen naar de korte-bandzone.",
+    hint:
+      "Speel laag met voldoende tempo. Deze positie heeft weinig marge bij de rechter korte band.",
+    balls: {
+      cue: { x: 87.1, y: 12.9 },
+      second: { x: 80.5, y: 17.9 },
+      third: { x: 92.7, y: 42.4 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 87.1, y: 12.9 },
+          { x: 80.5, y: 17.9 },
+          { x: 83.5, y: 2.8 },
+          { x: 95.5, y: 41.0 },
+          { x: 92.7, y: 42.4 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 80.5, y: 17.9 },
+          { x: 2.5, y: 21.5 },
+          { x: 27.5, y: 3.2 },
+          { x: 88.0, y: 40.5 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 92.7, y: 42.4 },
+          { x: 94.0, y: 44.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag; controleer de exacte raaklijn bij de rechterkant",
+      thickness: "dun op geel, met nadruk op de tweede-bal-route",
+      speed: "ongeveer 7.5 / 10 op de powerbalk",
+      explanation:
+        "De speelbal moet rood halen zonder te veel snelheid te verliezen. Bal 2 gebruikt links en boven als verzamelroute terug naar rechts.",
+      technicalDetails: [
+        "Effect: laag, ongeveer stand 1.3.",
+        "Power: ongeveer 7.5 / 10.",
+        "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
+        "Bronbeeld: PDF-positie 7; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-008": {
+    title: "PDF-positie 8 - handmatig getraceerd",
+    status: "handmatig getraceerd",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-008.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Speel de korte carambole rechts en stuur bal 2 via links terug naar de onderzijde.",
+    hint:
+      "Deze wordt rustiger gespeeld dan de vorige posities. Let vooral op de richting van bal 2 naar links.",
+    balls: {
+      cue: { x: 87.5, y: 12.1 },
+      second: { x: 80.0, y: 17.9 },
+      third: { x: 92.7, y: 42.4 },
+    },
+    paths: [
+      {
+        ball: "stick",
+        points: [
+          { x: 99.0, y: 1.5 },
+          { x: 87.5, y: 12.1 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 87.5, y: 12.1 },
+          { x: 80.0, y: 17.9 },
+          { x: 92.7, y: 42.4 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 80.0, y: 17.9 },
+          { x: 2.5, y: 32.0 },
+          { x: 92.7, y: 42.4 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 92.7, y: 42.4 },
+          { x: 94.3, y: 40.8 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag-links; exacte dikte controleren in het bronbeeld",
+      thickness: "dun op geel zodat bal 2 naar de linker lange band vertrekt",
+      speed: "ongeveer 5.4 / 10 op de powerbalk",
+      explanation:
+        "De speelbal gaat kort naar rood, terwijl bal 2 breed naar links vertrekt en terug richting de rechter onderzone loopt.",
+      technicalDetails: [
+        "Effect: laag-links, ongeveer stand 1.1.",
+        "Power: ongeveer 5.4 / 10.",
+        "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
+        "Bronbeeld: PDF-positie 8; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-009": {
+    title: "PDF-positie 9 - handmatig getraceerd",
+    status: "handmatig getraceerd",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-009.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Maak de korte carambole in de rechterbovenhoek en laat bal 2 via links terugkomen.",
+    hint:
+      "Laag-rechts effect. De ballen liggen dicht bij elkaar, dus de eerste aanspeeldikte is hier extra belangrijk.",
+    balls: {
+      cue: { x: 87.6, y: 15.0 },
+      second: { x: 80.4, y: 17.9 },
+      third: { x: 94.1, y: 17.3 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 87.6, y: 15.0 },
+          { x: 80.4, y: 17.9 },
+          { x: 94.1, y: 17.3 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 80.4, y: 17.9 },
+          { x: 2.5, y: 32.0 },
+          { x: 27.0, y: 44.0 },
+          { x: 68.0, y: 3.0 },
+          { x: 94.1, y: 17.3 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 94.1, y: 17.3 },
+          { x: 95.0, y: 19.8 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag-rechts; raakpunt in de bronafbeelding controleren",
+      thickness: "heel gecontroleerd op geel, omdat de drie ballen dicht bij elkaar liggen",
+      speed: "ongeveer 6.6 / 10 op de powerbalk",
+      explanation:
+        "De speelbal maakt de korte carambole in de rechterbovenhoek. Bal 2 wordt via links en boven teruggestuurd naar de kleine verzamelzone.",
+      technicalDetails: [
+        "Effect: laag-rechts, ongeveer stand 1.4.",
+        "Power: ongeveer 6.6 / 10.",
+        "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
+        "Bronbeeld: PDF-positie 9; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-010": {
+    title: "PDF-positie 10 - handmatig getraceerd",
+    status: "handmatig getraceerd",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-010.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Maak de carambole vanuit de compacte midden-rechter positie en houd de ballen bij elkaar.",
+    hint:
+      "Deze stoot is rustiger. Het bronbeeld geeft links effect en een duidelijk lagere power dan de vorige oefeningen.",
+    balls: {
+      cue: { x: 79.5, y: 32.3 },
+      second: { x: 82.0, y: 29.6 },
+      third: { x: 94.3, y: 20.3 },
+    },
+    paths: [
+      {
+        ball: "stick",
+        points: [
+          { x: 73.0, y: 49.5 },
+          { x: 79.5, y: 32.3 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 79.5, y: 32.3 },
+          { x: 82.0, y: 29.6 },
+          { x: 83.5, y: 2.8 },
+          { x: 94.3, y: 20.3 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 82.0, y: 29.6 },
+          { x: 96.0, y: 26.0 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 94.3, y: 20.3 },
+          { x: 95.4, y: 21.9 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "links effect; exacte aanspeeldikte controleren in het bronbeeld",
+      thickness: "kort en beheerst op geel",
+      speed: "ongeveer 3.6 / 10 op de powerbalk",
+      explanation:
+        "De speelbal wordt rustig gespeeld, raakt geel en loopt daarna via de bovenkant richting rood. De tweede bal blijft korter in de rechter zone.",
+      technicalDetails: [
+        "Effect: links, ongeveer stand 3.",
+        "Power: ongeveer 3.6 / 10.",
+        "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
+        "Bronbeeld: PDF-positie 10; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
 };
