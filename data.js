@@ -250,9 +250,10 @@ const seedPositions = [
 const positionOverrides = {
   "dirk-acx-001": {
     title: "PDF-positie 1 - voorbeeld omgezet",
-    status: "voorbeeld omgezet",
+    status: "ballen omgezet, lijnen controleren",
     renderMode: "table",
     generatedFromImage: true,
+    lineStatus: "concept",
     originalDiagramImage: "assets/positions/shot-001.jpg",
     goal:
       "Maak de carambole vanuit de bovenste verzamelpositie en probeer de ballen richting rechter korte band bij elkaar te houden.",
@@ -303,6 +304,7 @@ const positionOverrides = {
         "Effect: laag-links, ongeveer stand 3.",
         "Power: ongeveer 8.6 / 10.",
         "Raakpunt: ongeveer halfvol op geel.",
+        "Lijnen: concept. De originele stootbal-lijn en looplijnen moeten nog tegen het PDF-diagram gecontroleerd worden.",
         "Bronbeeld: PDF-positie 1, zodat deze later ook aan exact dezelfde YouTube-stoot gekoppeld kan worden.",
       ],
     },

@@ -237,6 +237,18 @@ main {
   font-weight: 800;
 }
 
+.source-diagram-details {
+  margin-top: 12px;
+}
+
+.source-diagram-details summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
 .diagram-image {
   display: block;
   width: 100%;

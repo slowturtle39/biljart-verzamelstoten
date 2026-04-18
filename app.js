@@ -304,8 +304,9 @@ function renderDifficultyPicker(position) {
 function renderDiagram(position) {
   if (position.renderMode === "table" && position.balls) {
     return `
-      <div class="converted-diagram-label">Omgezet naar app-diagram</div>
+      <div class="converted-diagram-label">${escapeHtml(getConvertedDiagramLabel(position))}</div>
       <div class="table-wrap">${renderTable(position)}</div>
+      ${renderInlineOriginalDiagram(position)}
     `;
   }
 
@@ -321,6 +322,28 @@ function renderDiagram(position) {
   }
 
   return `<div class="table-wrap">${renderTable(position)}</div>`;
+}
+
+function getConvertedDiagramLabel(position) {
+  if (position.lineStatus === "concept") {
+    return "Ballen omgezet naar app-diagram; lijnen nog controleren";
+  }
+
+  return "Omgezet naar app-diagram";
+}
+
+function renderInlineOriginalDiagram(position) {
+  const image = position.originalDiagramImage;
+  if (!image) return "";
+
+  return `
+    <details class="source-diagram-details" open>
+      <summary>Origineel PDF-diagram controleren</summary>
+      <a href="${escapeAttribute(image)}" target="_blank" rel="noreferrer">
+        <img class="diagram-image" src="${escapeAttribute(image)}" alt="Origineel PDF-diagram voor ${escapeAttribute(position.title)}" loading="lazy" />
+      </a>
+    </details>
+  `;
 }
 
 function renderTechnicalDetails(details) {
