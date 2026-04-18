@@ -29,6 +29,24 @@ lessen. De PDF-import toont de originele diagrammen, maar bevat geen geschreven
 uitleg per stoot. Controleer de inhoud met een echte libre-speler voordat ze als
 definitieve oefenstof worden gebruikt.
 
+## PDF-calibratie
+
+Voor diagrammen uit de Dirk Acx-PDF staat een hulpmiddel in
+`scripts/calibrate_pdf_diagrams.py`. Dat script rendert een positie opnieuw uit
+de PDF, detecteert per diagram de witte railpunten en maakt daarmee een eigen
+pixel-naar-tafelcalibratie. Daardoor hoeft een toekomstige conversie niet uit te
+gaan van een vaste crop of vaste tabelmaat.
+
+Voorbeeld:
+
+```powershell
+py scripts\calibrate_pdf_diagrams.py --pdf-position 1 --debug
+```
+
+De debug-afbeelding komt in `scratch/calibration/` terecht. Bij nieuwe PDF's is
+waarschijnlijk een nieuw layoutprofiel nodig voor de juiste positie-crops; de
+railpunt-calibratie zelf kan daarna opnieuw per diagram worden gebruikt.
+
 ## Gebruiken
 
 Open `index.html` in een browser. Voor installatie op telefoon of offline cache

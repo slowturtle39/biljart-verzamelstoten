@@ -333,6 +333,10 @@ function getConvertedDiagramLabel(position) {
     return "Ballen en hoofdlijnen omgezet naar app-diagram";
   }
 
+  if (position.lineStatus === "diamond") {
+    return "Ballen en looplijnen gecalibreerd op de witte railpunten";
+  }
+
   return "Omgezet naar app-diagram";
 }
 
