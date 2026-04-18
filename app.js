@@ -2,6 +2,7 @@ const STORAGE_KEYS = {
   progress: "biljart-verzamelstoten-progress-v1",
   custom: "biljart-verzamelstoten-custom-v1",
   videoTimes: "biljart-verzamelstoten-video-times-v1",
+  difficulty: "biljart-verzamelstoten-difficulty-v1",
 };
 
 const failureReasons = [
@@ -204,7 +205,7 @@ function renderPracticeCard(position, total, index, mode) {
       <div class="shot-stage">
         <div class="shot-meta">
           <span class="chip">${escapeHtml(formatCategory(position.category))}</span>
-          <span class="chip">niveau ${Number(position.difficulty || 1)}</span>
+          <span class="chip">${escapeHtml(getDifficultyLabel(position))}</span>
           <span class="source-chip">${escapeHtml(position.status || "concept")}</span>
           <span class="chip">${index + 1} / ${total}</span>
         </div>
@@ -222,6 +223,8 @@ function renderPracticeCard(position, total, index, mode) {
           <div class="stat"><strong>${progress.successes || 0}</strong><span>gelukt</span></div>
           <div class="stat"><strong>${progress.failures || 0}</strong><span>mislukt</span></div>
         </div>
+
+        ${renderDifficultyPicker(position)}
 
         <div class="button-row">
           <button type="button" data-action="prev">Vorige</button>
@@ -246,6 +249,7 @@ function renderPracticeCard(position, total, index, mode) {
                 <p><strong>Aanspeeldikte:</strong> ${escapeHtml(solution.thickness || "nog invullen")}</p>
                 <p><strong>Tempo:</strong> ${escapeHtml(solution.speed || "nog invullen")}</p>
                 <p>${escapeHtml(solution.explanation || "Nog geen uitleg ingevuld.")}</p>
+                ${renderTechnicalDetails(solution.technicalDetails)}
               </div>`
             : ""
         }
@@ -269,6 +273,8 @@ function renderPracticeCard(position, total, index, mode) {
           ${source.note ? `<p>${escapeHtml(source.note)}</p>` : ""}
           ${pdfLine ? `<p><strong>PDF/figuur:</strong> ${escapeHtml(pdfLine)}</p>` : ""}
           ${videoLink}
+          ${renderOriginalDiagramLink(position)}
+          ${renderGeneratedNote(position)}
         </div>
 
         ${renderVideoTimestampEditor(position)}
@@ -277,16 +283,68 @@ function renderPracticeCard(position, total, index, mode) {
   `;
 }
 
+function renderDifficultyPicker(position) {
+  const value = getDifficultyValue(position);
+
+  return `
+    <form class="difficulty-box" data-difficulty-form="${escapeAttribute(position.id)}">
+      <label>
+        Moeilijkheid volgens speler
+        <select name="difficulty">
+          <option value=""${value ? "" : " selected"}>Nog kiezen</option>
+          ${[1, 2, 3, 4, 5]
+            .map((level) => `<option value="${level}"${String(value) === String(level) ? " selected" : ""}>${level}</option>`)
+            .join("")}
+        </select>
+      </label>
+    </form>
+  `;
+}
+
 function renderDiagram(position) {
+  if (position.renderMode === "table" && position.balls) {
+    return `<div class="table-wrap">${renderTable(position)}</div>`;
+  }
+
   if (position.diagramImage) {
     return `
       <figure class="diagram-figure">
-        <img class="diagram-image" src="${escapeAttribute(position.diagramImage)}" alt="${escapeAttribute(position.title)}" loading="lazy" />
+        <a href="${escapeAttribute(position.diagramImage)}" target="_blank" rel="noreferrer">
+          <img class="diagram-image" src="${escapeAttribute(position.diagramImage)}" alt="${escapeAttribute(position.title)}" loading="lazy" />
+        </a>
       </figure>
     `;
   }
 
   return `<div class="table-wrap">${renderTable(position)}</div>`;
+}
+
+function renderTechnicalDetails(details) {
+  if (!Array.isArray(details) || !details.length) return "";
+
+  return `
+    <ul class="technical-list">
+      ${details.map((detail) => `<li>${escapeHtml(detail)}</li>`).join("")}
+    </ul>
+  `;
+}
+
+function renderOriginalDiagramLink(position) {
+  const image = position.originalDiagramImage || position.diagramImage;
+  if (!image) return "";
+
+  return `<p><strong>Bronbeeld:</strong> <a href="${escapeAttribute(image)}" target="_blank" rel="noreferrer">bekijk vergroot diagram</a></p>`;
+}
+
+function renderGeneratedNote(position) {
+  if (!position.generatedFromImage && !position.originalDiagramImage) return "";
+
+  return `
+    <p class="generated-note">
+      Let op: de tekst is gegenereerd op basis van het PDF-diagram. Klik op het bronbeeld als je de exacte
+      effect-, power- of raakpuntinformatie wilt controleren.
+    </p>
+  `;
 }
 
 function renderVideoTimestampEditor(position) {
@@ -364,6 +422,17 @@ function bindPracticeCardEvents(mode, queue) {
     });
   });
 
+  root.querySelectorAll("[data-difficulty-form]").forEach((form) => {
+    form.addEventListener("change", () => {
+      const indexKey = mode === "practice" ? "currentIndex" : "failedIndex";
+      const formData = new FormData(form);
+      saveDifficulty(queue[state[indexKey]], String(formData.get("difficulty") || ""));
+      renderSummary();
+      if (mode === "practice") renderPractice();
+      if (mode === "failed") renderFailed();
+    });
+  });
+
   root.querySelectorAll("[data-timestamp-form]").forEach((form) => {
     form.addEventListener("submit", (event) => {
       event.preventDefault();
@@ -408,7 +477,7 @@ function renderLibrary() {
           <div>
             <div class="shot-meta">
               <span class="chip">${escapeHtml(formatCategory(position.category))}</span>
-              <span class="chip">niveau ${Number(position.difficulty || 1)}</span>
+              <span class="chip">${escapeHtml(getDifficultyLabel(position))}</span>
               <span class="source-chip">${escapeHtml(position.status || "concept")}</span>
             </div>
             <h3>${escapeHtml(position.title)}</h3>
@@ -623,11 +692,73 @@ function getPracticeQueue(onlyFailed) {
 
 function getAllPositions() {
   const importedPositions = typeof pdfPositions === "undefined" ? [] : pdfPositions;
-  return [...importedPositions, ...seedPositions, ...loadJson(STORAGE_KEYS.custom, [])];
+  return [...importedPositions, ...seedPositions, ...loadJson(STORAGE_KEYS.custom, [])].map(applyPositionOverride);
+}
+
+function applyPositionOverride(position) {
+  const overrides = typeof positionOverrides === "undefined" ? {} : positionOverrides;
+  const override = overrides[position.id];
+
+  if (!override) return position;
+
+  return deepMerge(position, override);
+}
+
+function deepMerge(base, override) {
+  const output = { ...base };
+
+  Object.entries(override).forEach(([key, value]) => {
+    if (
+      value &&
+      typeof value === "object" &&
+      !Array.isArray(value) &&
+      base[key] &&
+      typeof base[key] === "object" &&
+      !Array.isArray(base[key])
+    ) {
+      output[key] = deepMerge(base[key], value);
+    } else {
+      output[key] = value;
+    }
+  });
+
+  return output;
 }
 
 function getProgress() {
   return loadJson(STORAGE_KEYS.progress, {});
+}
+
+function getDifficultyMap() {
+  return loadJson(STORAGE_KEYS.difficulty, {});
+}
+
+function isPdfPosition(position) {
+  return String(position.id || "").startsWith("dirk-acx-");
+}
+
+function getDifficultyValue(position) {
+  const saved = getDifficultyMap()[position.id];
+  if (saved) return saved;
+  if (isPdfPosition(position)) return "";
+  return position.difficulty || "";
+}
+
+function getDifficultyLabel(position) {
+  const value = getDifficultyValue(position);
+  return value ? `niveau ${value}` : "niveau kiezen";
+}
+
+function saveDifficulty(position, value) {
+  const difficulties = getDifficultyMap();
+
+  if (value) {
+    difficulties[position.id] = value;
+  } else {
+    delete difficulties[position.id];
+  }
+
+  saveJson(STORAGE_KEYS.difficulty, difficulties);
 }
 
 function getVideoTime(position) {

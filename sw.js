@@ -1,4 +1,4 @@
-const CACHE_NAME = "biljart-verzamelstoten-v2";
+const CACHE_NAME = "biljart-verzamelstoten-v3";
 const ASSETS = ["./", "./index.html", "./styles.css", "./data.js", "./pdf-positions.js", "./app.js", "./manifest.json"];
 
 self.addEventListener("install", (event) => {

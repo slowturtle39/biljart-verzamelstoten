@@ -246,3 +246,65 @@ const seedPositions = [
     },
   },
 ];
+
+const positionOverrides = {
+  "dirk-acx-001": {
+    title: "PDF-positie 1 - voorbeeld omgezet",
+    status: "voorbeeld omgezet",
+    renderMode: "table",
+    generatedFromImage: true,
+    originalDiagramImage: "assets/positions/shot-001.jpg",
+    goal:
+      "Maak de carambole vanuit de bovenste verzamelpositie en probeer de ballen richting rechter korte band bij elkaar te houden.",
+    hint:
+      "Speel krachtig maar controleerbaar. De PDF geeft een vlakke keuhoek, laag-links effect en ongeveer 8.6 power aan.",
+    balls: {
+      cue: { x: 53.5, y: 9.2 },
+      second: { x: 74.4, y: 4.7 },
+      third: { x: 93.0, y: 45.7 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 53.5, y: 9.2 },
+          { x: 74.4, y: 4.7 },
+          { x: 96.0, y: 20.0 },
+          { x: 93.0, y: 45.7 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 74.4, y: 4.7 },
+          { x: 96.0, y: 20.0 },
+          { x: 49.0, y: 43.0 },
+          { x: 4.0, y: 23.0 },
+          { x: 23.0, y: 7.0 },
+          { x: 78.0, y: 29.0 },
+        ],
+      },
+      {
+        ball: "third",
+        points: [
+          { x: 93.0, y: 45.7 },
+          { x: 88.0, y: 42.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "ongeveer halfvol op de gele bal volgens het raakpuntbeeld",
+      thickness: "ongeveer halfvol; controleer dit nog aan tafel",
+      speed: "krachtig, ongeveer 8.6 / 10 op de powerbalk",
+      explanation:
+        "Dit is een voorbeeldconversie uit het PDF-diagram. De ballen en lijnen zijn overgenomen naar het vaste app-formaat. De techniekvelden zijn uit de simulatorbalk gelezen; laat je vader vooral controleren of de aanspeeldikte en looplijn logisch zijn.",
+      technicalDetails: [
+        "Keuhoek: vlak / bijna horizontaal.",
+        "Effect: laag-links, ongeveer stand 3.",
+        "Power: ongeveer 8.6 / 10.",
+        "Raakpunt: ongeveer halfvol op geel.",
+        "Bronbeeld: PDF-positie 1, zodat deze later ook aan exact dezelfde YouTube-stoot gekoppeld kan worden.",
+      ],
+    },
+  },
+};

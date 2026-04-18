@@ -360,7 +360,8 @@ main {
 
 .reveal-box,
 .stats-box,
-.timestamp-box {
+.timestamp-box,
+.difficulty-box {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 12px;
@@ -384,7 +385,8 @@ main {
   gap: 10px;
 }
 
-.timestamp-box label {
+.timestamp-box label,
+.difficulty-box label {
   display: grid;
   gap: 6px;
   color: var(--muted);
@@ -396,13 +398,26 @@ main {
   font-weight: 500;
 }
 
-.timestamp-box input {
+.timestamp-box input,
+.difficulty-box select {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #ffffff;
   color: var(--ink);
   padding: 10px 11px;
+}
+
+.technical-list {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.generated-note {
+  margin-top: 8px !important;
+  font-size: 0.9rem;
 }
 
 .stats-grid {
