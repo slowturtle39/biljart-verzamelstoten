@@ -303,12 +303,16 @@ function renderDifficultyPicker(position) {
 
 function renderDiagram(position) {
   if (position.renderMode === "table" && position.balls) {
-    return `<div class="table-wrap">${renderTable(position)}</div>`;
+    return `
+      <div class="converted-diagram-label">Omgezet naar app-diagram</div>
+      <div class="table-wrap">${renderTable(position)}</div>
+    `;
   }
 
   if (position.diagramImage) {
     return `
       <figure class="diagram-figure">
+        <figcaption>Origineel PDF-diagram</figcaption>
         <a href="${escapeAttribute(position.diagramImage)}" target="_blank" rel="noreferrer">
           <img class="diagram-image" src="${escapeAttribute(position.diagramImage)}" alt="${escapeAttribute(position.title)}" loading="lazy" />
         </a>
@@ -915,8 +919,8 @@ function escapeAttribute(value) {
 
 function registerServiceWorker() {
   if (!("serviceWorker" in navigator)) return;
-  if (location.protocol === "file:") return;
-  navigator.serviceWorker.register("sw.js").catch(() => {
-    // De app werkt ook zonder offline cache.
+
+  navigator.serviceWorker.getRegistrations().then((registrations) => {
+    registrations.forEach((registration) => registration.unregister());
   });
 }
