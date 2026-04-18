@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Mobiele libre trainer voor verzamelstoten met posities, uitleg, bronnen en herhaling."
+    />
+    <meta name="theme-color" content="#0b6f50" />
+    <title>Libre verzamelstoten</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Libre trainer</p>
+        <h1>Verzamelstoten oefenen</h1>
+        <p class="header-copy">
+          Speel de positie, bekijk daarna de oplossing en laat mislukte
+          stoten vanzelf terugkomen.
+        </p>
+      </div>
+      <div class="status-pill" id="summaryPill">0 stoten</div>
+    </header>
+
+    <nav class="tabs" aria-label="Hoofdmenu">
+      <button class="tab is-active" type="button" data-tab="practice">Oefenen</button>
+      <button class="tab" type="button" data-tab="failed">Mislukt</button>
+      <button class="tab" type="button" data-tab="library">Bibliotheek</button>
+      <button class="tab" type="button" data-tab="add">Toevoegen</button>
+    </nav>
+
+    <main>
+      <section class="panel is-active" id="practicePanel" aria-labelledby="practiceTitle">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Vandaag</p>
+            <h2 id="practiceTitle">Oefenpositie</h2>
+          </div>
+          <select id="categoryFilter" aria-label="Filter op type stoot">
+            <option value="all">Alle types</option>
+          </select>
+        </div>
+        <div id="practiceView"></div>
+      </section>
+
+      <section class="panel" id="failedPanel" aria-labelledby="failedTitle">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Herhalen</p>
+            <h2 id="failedTitle">Mislukte stoten</h2>
+          </div>
+        </div>
+        <div id="failedView"></div>
+      </section>
+
+      <section class="panel" id="libraryPanel" aria-labelledby="libraryTitle">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Database</p>
+            <h2 id="libraryTitle">Bibliotheek</h2>
+          </div>
+          <input id="librarySearch" type="search" placeholder="Zoek op titel, bron of tag" />
+        </div>
+        <div id="libraryView" class="library-list"></div>
+      </section>
+
+      <section class="panel" id="addPanel" aria-labelledby="addTitle">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">PDF, boek of video</p>
+            <h2 id="addTitle">Nieuwe positie invoeren</h2>
+          </div>
+        </div>
+
+        <div class="editor-layout">
+          <div>
+            <p class="intro">
+              Sleep de ballen op tafel en vul de bron in. Bij PDF's kun je
+              later de bestandsnaam, pagina en figuur bewaren zonder dat de
+              oefening zelf verandert.
+            </p>
+            <div id="editorTable" class="editor-table"></div>
+            <div class="coord-row" id="editorCoords"></div>
+          </div>
+
+          <form id="positionForm" class="position-form">
+            <label>
+              Titel
+              <input name="title" required placeholder="Bijv. korte verzamelstoot naar band" />
+            </label>
+
+            <label>
+              Type
+              <select name="category">
+                <option value="verzamelen">Verzamelen</option>
+                <option value="voorbereiden">Voorbereiden</option>
+                <option value="serie-americaine">Serie americaine</option>
+                <option value="bandstoot">Bandstoot</option>
+                <option value="trekstoot">Trekstoot</option>
+              </select>
+            </label>
+
+            <label>
+              Moeilijkheid
+              <select name="difficulty">
+                <option value="1">1 - rustig inkomen</option>
+                <option value="2">2 - basis</option>
+                <option value="3" selected>3 - oefenstof</option>
+                <option value="4">4 - lastig</option>
+                <option value="5">5 - studiepositie</option>
+              </select>
+            </label>
+
+            <label>
+              Bronsoort
+              <select name="sourceType">
+                <option value="pdf">PDF of boek</option>
+                <option value="web">Website</option>
+                <option value="video">Video</option>
+                <option value="eigen">Eigen notitie</option>
+              </select>
+            </label>
+
+            <label>
+              Bron / boek / PDF
+              <input name="sourceTitle" placeholder="Bijv. Xavier Gretillat, hoofdstuk ..." />
+            </label>
+
+            <div class="form-grid">
+              <label>
+                Pagina
+                <input name="page" inputmode="numeric" placeholder="42" />
+              </label>
+              <label>
+                Figuur
+                <input name="figure" placeholder="12a" />
+              </label>
+            </div>
+
+            <label>
+              Link naar bron of video
+              <input name="url" type="url" placeholder="https://..." />
+            </label>
+
+            <label>
+              Hint
+              <textarea name="hint" rows="3" placeholder="Waar moet hij eerst op letten?"></textarea>
+            </label>
+
+            <label>
+              Oplossing en uitleg
+              <textarea
+                name="explanation"
+                rows="5"
+                placeholder="Aanspeeldikte, effect, tempo, doel van bal 2 en bal 3."
+              ></textarea>
+            </label>
+
+            <button class="primary-action" type="submit">Conceptpositie opslaan</button>
+          </form>
+        </div>
+
+        <details class="data-export">
+          <summary>Database exporteren</summary>
+          <p>
+            Deze JSON kun je later bewaren, opsturen of gebruiken als startpunt
+            voor een echte database.
+          </p>
+          <button type="button" id="refreshExport">Export verversen</button>
+          <textarea id="exportBox" rows="10" readonly></textarea>
+        </details>
+      </section>
+    </main>
+
+    <template id="emptyStateTemplate">
+      <div class="empty-state">
+        <strong>Nog niets gevonden.</strong>
+        <p>Voeg posities toe of verander het filter.</p>
+      </div>
+    </template>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

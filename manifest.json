@@ -1,0 +1,10 @@
+{
+  "name": "Libre verzamelstoten",
+  "short_name": "Verzamelstoten",
+  "description": "Mobiele trainer voor libre verzamelstoten.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f7f5",
+  "theme_color": "#0b6f50",
+  "icons": []
+}
