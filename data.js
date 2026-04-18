@@ -1103,6 +1103,7 @@ const positionOverrides = {
           { x: 89.1, y: 22.4 },
           { x: 78.3, y: 18.5 },
           { x: 78.0, y: 3.0 },
+          { x: 96.5, y: 21.5 },
           { x: 92.4, y: 42.7 },
         ],
       },
@@ -1128,7 +1129,7 @@ const positionOverrides = {
       thickness: "dun genoeg om wit naar boven te laten vertrekken na geel",
       speed: "ongeveer 4.9 / 10 op de powerbalk",
       explanation:
-        "De speelbal raakt geel, loopt eerst omhoog en valt daarna terug naar rood. Bal 2 wordt via links en onder terug naar rechts gestuurd.",
+        "De speelbal raakt geel, loopt eerst naar de bovenste lange band, daarna naar de rechter korte band en valt dan terug naar rood. Bal 2 wordt via links en onder terug naar rechts gestuurd.",
       technicalDetails: [
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Power: ongeveer 4.9 / 10.",
@@ -1167,10 +1168,11 @@ const positionOverrides = {
         points: [
           { x: 12.3, y: 7.8 },
           { x: 25.0, y: 7.8 },
-          { x: 33.0, y: 42.5 },
-          { x: 2.5, y: 24.0 },
+          { x: 56.0, y: 48.5 },
+          { x: 96.5, y: 37.0 },
           { x: 45.0, y: 3.0 },
-          { x: 95.0, y: 34.0 },
+          { x: 2.5, y: 28.0 },
+          { x: 56.0, y: 48.5 },
           { x: 90.4, y: 7.7 },
         ],
       },
@@ -1196,7 +1198,7 @@ const positionOverrides = {
       thickness: "voldoende vol om de lange doorloop te dragen",
       speed: "ongeveer 8.3 / 10 op de powerbalk",
       explanation:
-        "De speelbal vertrekt linksboven, raakt geel aan de rechterkant en gebruikt daarna de bandenroute onder, links, boven en rechts om rood rechtsboven te bereiken. Bal 2 krijgt eveneens een brede terugloop.",
+        "De speelbal vertrekt linksboven, raakt geel, loopt eerst naar de onderband net rechts van de tweede diamant, daarna naar de onderste diamant op de rechter korte band, vervolgens naar de bovenband links van het midden, naar de linker korte band net onder de tweede diamant, terug naar de onderband net rechts van de tweede diamant en vandaar richting rood. Bal 2 krijgt eveneens een brede terugloop.",
       technicalDetails: [
         "Effect: laag-links, ongeveer stand 1.3.",
         "Power: ongeveer 8.3 / 10.",
@@ -1300,7 +1302,7 @@ const positionOverrides = {
         points: [
           { x: 56.6, y: 22.6 },
           { x: 38.4, y: 6.7 },
-          { x: 47.0, y: 14.0 },
+          { x: 42.0, y: 3.0 },
           { x: 84.0, y: 48.0 },
           { x: 92.6, y: 41.5 },
         ],
@@ -1327,7 +1329,7 @@ const positionOverrides = {
       thickness: "voldoende dun om de speelbal lang te laten doorvallen",
       speed: "ongeveer 5.8 / 10 op de powerbalk",
       explanation:
-        "De speelbal loopt na het contact met bal 2 eerst naar rechts en daarna naar de onderband bij rood. Bal 2 vertrekt goed naar links en gaat na de linker band door naar de onderband bij de rode bal.",
+        "De speelbal loopt na het contact met geel eerst duidelijk naar de bovenste lange band en komt daarna terug richting de onderband bij rood. Bal 2 vertrekt goed naar links en gaat na de linker band door naar de onderband bij de rode bal.",
       technicalDetails: [
         "Effect: laag-rechts, ongeveer stand 1.5.",
         "Power: ongeveer 5.8 / 10.",
@@ -1375,8 +1377,9 @@ const positionOverrides = {
         ball: "second",
         points: [
           { x: 84.2, y: 38.3 },
-          { x: 2.5, y: 23.5 },
-          { x: 33.0, y: 3.0 },
+          { x: 91.5, y: 3.0 },
+          { x: 2.5, y: 24.5 },
+          { x: 72.0, y: 46.0 },
           { x: 92.0, y: 41.5 },
         ],
       },
@@ -1393,7 +1396,7 @@ const positionOverrides = {
       thickness: "dun genoeg om de knik naar onder te krijgen",
       speed: "ongeveer 6.9 / 10 op de powerbalk",
       explanation:
-        "De speelbal gaat eerst via de rechter korte band en de onderste lange band naar geel, en loopt daarna door naar rood. Bal 2 loopt na de linker korte band door naar de rechter onderzone.",
+        "De speelbal gaat eerst via de rechter korte band en de onderste lange band naar geel, en loopt daarna door naar rood. Bal 2 gaat eerst naar de bovenste lange band, daarna naar het midden van de linker korte band en vervolgens naar de onderste lange band.",
       technicalDetails: [
         "Effect: laag-rechts, ongeveer stand 1.2.",
         "Power: ongeveer 6.9 / 10.",
@@ -1523,6 +1526,517 @@ const positionOverrides = {
         "Power: ongeveer 5.4 / 10.",
         "Lijnen: handmatig getraceerd op de groene simulator en gecalibreerd op de raildiamonds.",
         "Bronbeeld: PDF-positie 20; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-021": {
+    title: "PDF-positie 21 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-021.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Laat de speelbal via de rechteronderhoek naar rood terugkomen terwijl bal 2 de linkerlus maakt.",
+    hint:
+      "Laag effect met behoorlijk tempo. Gebruik het vergrote bronbeeld als controle voor de precieze rechterterugloop.",
+    balls: {
+      cue: { x: 48.9, y: 24.6 },
+      second: { x: 37.5, y: 6.2 },
+      third: { x: 91.7, y: 7.1 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 48.9, y: 24.6 },
+          { x: 37.5, y: 6.2 },
+          { x: 73.0, y: 47.0 },
+          { x: 96.5, y: 25.0 },
+          { x: 91.7, y: 7.1 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 37.5, y: 6.2 },
+          { x: 2.5, y: 24.0 },
+          { x: 48.0, y: 47.0 },
+          { x: 79.0, y: 19.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag; exacte dikte controleren in het bronbeeld",
+      thickness: "voldoende vol om wit diep naar rechts te laten vallen",
+      speed: "ongeveer 6.6 / 10 op de powerbalk",
+      explanation:
+        "De speelbal gaat via geel eerst naar de onderkant rechts en klimt daarna langs de rechterzijde naar rood. Bal 2 maakt intussen de brede linkerlus en keert terug naar de midden/rechterzone.",
+      technicalDetails: [
+        "Effect: laag, ongeveer stand 1.2.",
+        "Power: ongeveer 6.6 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 21; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-022": {
+    title: "PDF-positie 22 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-022.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Speel de korte carambole bovenin en laat bal 2 de grote linkerlijn afwerken.",
+    hint:
+      "Laag effect met middentempo. De witte lijn blijft compact, de gele lijn maakt de grote lus.",
+    balls: {
+      cue: { x: 37.1, y: 14.0 },
+      second: { x: 29.0, y: 18.0 },
+      third: { x: 91.5, y: 7.8 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 37.1, y: 14.0 },
+          { x: 29.0, y: 18.0 },
+          { x: 84.0, y: 3.0 },
+          { x: 91.5, y: 7.8 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 29.0, y: 18.0 },
+          { x: 2.5, y: 24.0 },
+          { x: 33.0, y: 47.0 },
+          { x: 96.0, y: 8.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag; exacte aanspeeldikte controleren in het bronbeeld",
+      thickness: "kort en gecontroleerd, zodat wit hoog blijft",
+      speed: "ongeveer 6.2 / 10 op de powerbalk",
+      explanation:
+        "De speelbal gaat na het contact compact via de bovenste zone naar rood. Bal 2 neemt de grote linkerlus en keert diagonaal terug naar rechts.",
+      technicalDetails: [
+        "Effect: laag, ongeveer stand 1.7.",
+        "Power: ongeveer 6.2 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 22; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-023": {
+    title: "PDF-positie 23 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-023.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Breng de speelbal via de rechterzijde en de onderband terug naar rood linksboven.",
+    hint:
+      "Laag effect met beheerst tempo. De witte lijn maakt de duidelijke knik rechts, de gele zakt eerst weg.",
+    balls: {
+      cue: { x: 90.3, y: 16.2 },
+      second: { x: 89.4, y: 26.1 },
+      third: { x: 27.8, y: 7.1 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 90.3, y: 16.2 },
+          { x: 89.4, y: 26.1 },
+          { x: 96.5, y: 34.0 },
+          { x: 77.0, y: 47.0 },
+          { x: 27.8, y: 7.1 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 89.4, y: 26.1 },
+          { x: 35.0, y: 10.0 },
+          { x: 69.0, y: 47.0 },
+          { x: 85.0, y: 20.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag; exacte dikte controleren in het bronbeeld",
+      thickness: "vrij dun, zodat de rechterknik open blijft",
+      speed: "ongeveer 5.1 / 10 op de powerbalk",
+      explanation:
+        "De speelbal gaat via de rechter korte band en de onderband terug naar rood linksboven. Bal 2 zakt diagonaal weg en klimt daarna opnieuw naar rechts.",
+      technicalDetails: [
+        "Effect: laag, ongeveer stand 1.4.",
+        "Power: ongeveer 5.1 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 23; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-024": {
+    title: "PDF-positie 24 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-024.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Houd de speelbal kort richting rood en laat bal 2 de hogere terugweg nemen.",
+    hint:
+      "Laag effect, rustig tempo. Dit is een compactere positie dan de vorige paar.",
+    balls: {
+      cue: { x: 65.8, y: 21.7 },
+      second: { x: 72.7, y: 16.3 },
+      third: { x: 91.8, y: 41.9 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 65.8, y: 21.7 },
+          { x: 72.7, y: 16.3 },
+          { x: 96.5, y: 36.0 },
+          { x: 91.8, y: 41.9 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 72.7, y: 16.3 },
+          { x: 79.0, y: 1.5 },
+          { x: 96.5, y: 36.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag; exacte dikte controleren in het bronbeeld",
+      thickness: "kort genoeg om wit naar de rechterhoek te sturen",
+      speed: "ongeveer 4.1 / 10 op de powerbalk",
+      explanation:
+        "De speelbal maakt na geel de korte rechterafslag naar rood. Bal 2 klimt eerst omhoog en loopt daarna langs de rechterzijde terug.",
+      technicalDetails: [
+        "Effect: laag, ongeveer stand 1.7.",
+        "Power: ongeveer 4.1 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 24; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-025": {
+    title: "PDF-positie 25 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-025.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Laat de speelbal lang via de onderband doorlopen naar rood rechtsboven.",
+    hint:
+      "Laag-links effect. Dit is een lange diagonale doorstoot waarin de bronzoom nuttig blijft.",
+    balls: {
+      cue: { x: 8.1, y: 20.3 },
+      second: { x: 6.2, y: 29.5 },
+      third: { x: 92.3, y: 7.1 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 8.1, y: 20.3 },
+          { x: 6.2, y: 29.5 },
+          { x: 24.0, y: 47.0 },
+          { x: 92.3, y: 7.1 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 6.2, y: 29.5 },
+          { x: 2.5, y: 34.0 },
+          { x: 16.0, y: 47.0 },
+          { x: 95.0, y: 9.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag-links; exacte aanspeeldikte controleren in het bronbeeld",
+      thickness: "vrij dun om de lange diagonale witte lijn open te houden",
+      speed: "ongeveer 4.6 / 10 op de powerbalk",
+      explanation:
+        "De speelbal vertrekt vanuit de linkerzijde, raakt geel en gaat via de onderband lang door naar rood rechtsboven. Bal 2 blijft eerst in de korte linkerhoek voordat hij de tafel oversteekt.",
+      technicalDetails: [
+        "Effect: laag-links, ongeveer stand 3.",
+        "Power: ongeveer 4.6 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 25; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-026": {
+    title: "PDF-positie 26 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-026.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Stuur de speelbal eerst weg naar links en laat hem daarna terugvallen op rood rechtsonder.",
+    hint:
+      "Rechts effect met veel tempo. De twee hoofdlijnen kruisen elkaar duidelijk in het midden.",
+    balls: {
+      cue: { x: 76.3, y: 16.2 },
+      second: { x: 60.2, y: 18.7 },
+      third: { x: 92.5, y: 42.3 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 76.3, y: 16.2 },
+          { x: 60.2, y: 18.7 },
+          { x: 2.5, y: 24.0 },
+          { x: 58.0, y: 1.5 },
+          { x: 92.5, y: 42.3 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 60.2, y: 18.7 },
+          { x: 58.0, y: 1.5 },
+          { x: 96.0, y: 28.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "rechts; exacte dikte controleren in het bronbeeld",
+      thickness: "genoeg draagkracht voor de lange eerste witte lus",
+      speed: "ongeveer 8.4 / 10 op de powerbalk",
+      explanation:
+        "De speelbal vertrekt na geel eerst naar links, klimt naar de bovenkant en valt daarna terug op rood rechtsonder. Bal 2 neemt de tegenovergestelde diagonale terugweg.",
+      technicalDetails: [
+        "Effect: rechts, ongeveer stand 0.7.",
+        "Power: ongeveer 8.4 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 26; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-027": {
+    title: "PDF-positie 27 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-027.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Verlaat geel naar links en laat de speelbal via de bovenband lang op rood rechtsonder landen.",
+    hint:
+      "Middeneffect met middeltempo. De witte hoofdlijn is hier de lange dalende terugkeer naar rechts.",
+    balls: {
+      cue: { x: 57.2, y: 41.5 },
+      second: { x: 32.9, y: 42.5 },
+      third: { x: 92.5, y: 42.3 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 57.2, y: 41.5 },
+          { x: 32.9, y: 42.5 },
+          { x: 2.5, y: 24.0 },
+          { x: 37.0, y: 1.5 },
+          { x: 92.5, y: 42.3 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 32.9, y: 42.5 },
+          { x: 2.5, y: 30.0 },
+          { x: 21.0, y: 47.0 },
+          { x: 30.0, y: 43.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "midden; exacte dikte controleren in het bronbeeld",
+      thickness: "kort genoeg om de lange witte bandlijn te openen",
+      speed: "ongeveer 5.4 / 10 op de powerbalk",
+      explanation:
+        "De speelbal verlaat geel naar links, pakt de bovenste lange band en komt lang terug naar rood rechtsonder. Bal 2 blijft lager en korter in de linkerhelft.",
+      technicalDetails: [
+        "Effect: midden, ongeveer stand 0.4.",
+        "Power: ongeveer 5.4 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 27; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-028": {
+    title: "PDF-positie 28 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-028.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Speel de grote witte driehoek via links en boven terug naar rood rechtsonder.",
+    hint:
+      "Laag-rechts effect met stevig tempo. De witte en gele lijnen kruisen elkaar vroeg in de positie.",
+    balls: {
+      cue: { x: 68.0, y: 32.1 },
+      second: { x: 46.0, y: 31.4 },
+      third: { x: 92.9, y: 43.1 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 68.0, y: 32.1 },
+          { x: 46.0, y: 31.4 },
+          { x: 2.5, y: 35.0 },
+          { x: 35.0, y: 2.0 },
+          { x: 92.9, y: 43.1 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 46.0, y: 31.4 },
+          { x: 2.5, y: 18.0 },
+          { x: 32.0, y: 2.0 },
+          { x: 73.0, y: 31.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "laag-rechts; exacte aanspeeldikte controleren in het bronbeeld",
+      thickness: "genoeg vol om de lange witte terugkeer naar rechts te dragen",
+      speed: "ongeveer 7.3 / 10 op de powerbalk",
+      explanation:
+        "De speelbal maakt de grote witte driehoek via links en boven naar rood rechtsonder. Bal 2 neemt de brede diagonale retour door de linkerhelft van de tafel.",
+      technicalDetails: [
+        "Effect: laag-rechts, ongeveer stand 1.2.",
+        "Power: ongeveer 7.3 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 28; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-029": {
+    title: "PDF-positie 29 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-029.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Laat de speelbal via de linkerlus en de bovenkant op rood rechtsonder vallen.",
+    hint:
+      "Rechts effect met middeltempo. De twee routes liggen hier dicht bij elkaar maar lopen niet gelijk.",
+    balls: {
+      cue: { x: 60.5, y: 26.1 },
+      second: { x: 31.2, y: 30.7 },
+      third: { x: 92.8, y: 43.1 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 60.5, y: 26.1 },
+          { x: 31.2, y: 30.7 },
+          { x: 2.5, y: 24.0 },
+          { x: 39.0, y: 2.0 },
+          { x: 92.8, y: 43.1 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 31.2, y: 30.7 },
+          { x: 49.0, y: 2.0 },
+          { x: 86.0, y: 40.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "rechts; exacte dikte controleren in het bronbeeld",
+      thickness: "kort en zuiver, zodat de witte bandlus open blijft",
+      speed: "ongeveer 5.6 / 10 op de powerbalk",
+      explanation:
+        "De speelbal neemt de klassieke linkerlus via de bovenkant en valt rechtsbeneden op rood. Bal 2 kruist daaronder met een kortere schuine terugweg.",
+      technicalDetails: [
+        "Effect: rechts, ongeveer stand 0.6.",
+        "Power: ongeveer 5.6 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 29; gebruik het vergrote diagram als controle voor nuance.",
+      ],
+    },
+  },
+  "dirk-acx-030": {
+    title: "PDF-positie 30 - handmatig getraceerd",
+    status: "handmatig getraceerd - eerste lezing",
+    renderMode: "table",
+    generatedFromImage: true,
+    lineStatus: "diamond",
+    originalDiagramImage: "assets/positions/shot-030.jpg",
+    lineOverlayImage: "",
+    goal:
+      "Speel bijna rechtstreeks door naar rood terwijl bal 2 de hoge boog via de bovenkant neemt.",
+    hint:
+      "Middeneffect met rustig middentempo. Dit is visueel eenvoudiger, maar het verschil tussen wit en geel blijft klein.",
+    balls: {
+      cue: { x: 32.7, y: 36.3 },
+      second: { x: 8.0, y: 24.6 },
+      third: { x: 92.8, y: 42.2 },
+    },
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 32.7, y: 36.3 },
+          { x: 8.0, y: 24.6 },
+          { x: 92.8, y: 42.2 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 8.0, y: 24.6 },
+          { x: 53.0, y: 2.0 },
+          { x: 92.0, y: 41.0 },
+        ],
+      },
+    ],
+    solution: {
+      hitPoint: "midden; exacte aanspeeldikte controleren in het bronbeeld",
+      thickness: "vrij vol om wit direct door te laten lopen",
+      speed: "ongeveer 5.7 / 10 op de powerbalk",
+      explanation:
+        "De speelbal loopt na geel bijna rechtstreeks door naar rood rechtsonder. Bal 2 maakt de hoge lange boog via de bovenband en zakt daarna terug naar rechts.",
+      technicalDetails: [
+        "Effect: midden, ongeveer stand 0.5.",
+        "Power: ongeveer 5.7 / 10.",
+        "Lijnen: handmatig eerste lezing op basis van de duidelijke PDF-render en de bron-overlay.",
+        "Bronbeeld: PDF-positie 30; gebruik het vergrote diagram als controle voor nuance.",
       ],
     },
   },
