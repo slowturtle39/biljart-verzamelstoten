@@ -224,6 +224,20 @@ main {
   overflow: hidden;
 }
 
+.diagram-figure {
+  margin: 0;
+  width: 100%;
+}
+
+.diagram-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
 .billiard-table {
   display: block;
   width: 100%;
@@ -345,7 +359,8 @@ main {
 }
 
 .reveal-box,
-.stats-box {
+.stats-box,
+.timestamp-box {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 12px;
@@ -362,6 +377,32 @@ main {
   margin: 0;
   color: var(--muted);
   line-height: 1.5;
+}
+
+.timestamp-box {
+  display: grid;
+  gap: 10px;
+}
+
+.timestamp-box label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.timestamp-box label span {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.timestamp-box input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--ink);
+  padding: 10px 11px;
 }
 
 .stats-grid {

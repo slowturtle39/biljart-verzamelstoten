@@ -1,6 +1,7 @@
 const STORAGE_KEYS = {
   progress: "biljart-verzamelstoten-progress-v1",
   custom: "biljart-verzamelstoten-custom-v1",
+  videoTimes: "biljart-verzamelstoten-video-times-v1",
 };
 
 const failureReasons = [
@@ -135,7 +136,10 @@ function renderTabs() {
 function renderSummary() {
   const positions = getAllPositions();
   const progress = getProgress();
-  const failed = positions.filter((position) => progress[position.id]?.lastResult === "mislukt");
+  const failed = positions.filter((position) => {
+    const positionProgress = progress[position.id] || {};
+    return positionProgress.lastResult === "mislukt";
+  });
   elements.summaryPill.textContent = `${positions.length} stoten, ${failed.length} mislukt`;
 }
 
@@ -187,8 +191,9 @@ function renderPracticeCard(position, total, index, mode) {
   const sourceLink = source.url
     ? `<a href="${escapeAttribute(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.title || "Bron")}</a>`
     : escapeHtml(source.title || "Geen bron");
+  const videoTime = getVideoTime(position) || media.videoStart || "";
   const videoLink = media.videoUrl
-    ? `<p><strong>Video:</strong> <a href="${escapeAttribute(media.videoUrl)}" target="_blank" rel="noreferrer">open video</a>${media.videoStart ? ` vanaf ${escapeHtml(media.videoStart)}` : ""}</p>`
+    ? `<p><strong>Video:</strong> <a href="${escapeAttribute(buildVideoUrl(media.videoUrl, videoTime))}" target="_blank" rel="noreferrer">open video${videoTime ? " vanaf tijdcode" : ""}</a></p>`
     : "";
   const pdfLine = [media.pdfFile, media.pdfPage ? `pagina ${media.pdfPage}` : "", media.figure]
     .filter(Boolean)
@@ -203,7 +208,7 @@ function renderPracticeCard(position, total, index, mode) {
           <span class="source-chip">${escapeHtml(position.status || "concept")}</span>
           <span class="chip">${index + 1} / ${total}</span>
         </div>
-        <div class="table-wrap">${renderTable(position)}</div>
+        ${renderDiagram(position)}
       </div>
 
       <div class="practice-side">
@@ -265,8 +270,42 @@ function renderPracticeCard(position, total, index, mode) {
           ${pdfLine ? `<p><strong>PDF/figuur:</strong> ${escapeHtml(pdfLine)}</p>` : ""}
           ${videoLink}
         </div>
+
+        ${renderVideoTimestampEditor(position)}
       </div>
     </article>
+  `;
+}
+
+function renderDiagram(position) {
+  if (position.diagramImage) {
+    return `
+      <figure class="diagram-figure">
+        <img class="diagram-image" src="${escapeAttribute(position.diagramImage)}" alt="${escapeAttribute(position.title)}" loading="lazy" />
+      </figure>
+    `;
+  }
+
+  return `<div class="table-wrap">${renderTable(position)}</div>`;
+}
+
+function renderVideoTimestampEditor(position) {
+  if (!position.media || !position.media.videoUrl) return "";
+
+  const savedTime = getVideoTime(position);
+
+  return `
+    <form class="timestamp-box" data-timestamp-form="${escapeAttribute(position.id)}">
+      <label>
+        YouTube-tijdcode voor deze stoot
+        <span>Vul bijvoorbeeld <strong>12:34</strong> of <strong>1:02:10</strong> in.</span>
+        <input name="videoTime" placeholder="mm:ss" value="${escapeAttribute(savedTime)}" />
+      </label>
+      <div class="button-row">
+        <button type="submit" class="primary-action">Tijdcode bewaren</button>
+        ${savedTime ? `<button type="button" data-action="clear-time">Wissen</button>` : ""}
+      </div>
+    </form>
   `;
 }
 
@@ -305,6 +344,10 @@ function bindPracticeCardEvents(mode, queue) {
         state.showReasons = true;
       }
 
+      if (action === "clear-time") {
+        saveVideoTime(queue[state[indexKey]], "");
+      }
+
       renderSummary();
       if (mode === "practice") renderPractice();
       if (mode === "failed") renderFailed();
@@ -320,6 +363,17 @@ function bindPracticeCardEvents(mode, queue) {
       if (mode === "failed") renderFailed();
     });
   });
+
+  root.querySelectorAll("[data-timestamp-form]").forEach((form) => {
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const indexKey = mode === "practice" ? "currentIndex" : "failedIndex";
+      const formData = new FormData(form);
+      saveVideoTime(queue[state[indexKey]], String(formData.get("videoTime") || ""));
+      if (mode === "practice") renderPractice();
+      if (mode === "failed") renderFailed();
+    });
+  });
 }
 
 function renderLibrary() {
@@ -331,7 +385,7 @@ function renderLibrary() {
       position.title,
       position.category,
       position.status,
-      position.source?.title,
+      position.source && position.source.title,
       ...(position.tags || []),
     ]
       .filter(Boolean)
@@ -348,7 +402,7 @@ function renderLibrary() {
   elements.libraryView.innerHTML = positions
     .map((position) => {
       const stats = progress[position.id] || {};
-      const source = position.source?.title || "geen bron";
+      const source = position.source && position.source.title ? position.source.title : "geen bron";
       return `
         <article class="library-item">
           <div>
@@ -559,17 +613,76 @@ function getPracticeQueue(onlyFailed) {
   const progress = getProgress();
   return getAllPositions().filter((position) => {
     if (!onlyFailed && state.category !== "all" && position.category !== state.category) return false;
-    if (onlyFailed && progress[position.id]?.lastResult !== "mislukt") return false;
+    if (onlyFailed) {
+      const positionProgress = progress[position.id] || {};
+      if (positionProgress.lastResult !== "mislukt") return false;
+    }
     return true;
   });
 }
 
 function getAllPositions() {
-  return [...seedPositions, ...loadJson(STORAGE_KEYS.custom, [])];
+  const importedPositions = typeof pdfPositions === "undefined" ? [] : pdfPositions;
+  return [...importedPositions, ...seedPositions, ...loadJson(STORAGE_KEYS.custom, [])];
 }
 
 function getProgress() {
   return loadJson(STORAGE_KEYS.progress, {});
+}
+
+function getVideoTime(position) {
+  return loadJson(STORAGE_KEYS.videoTimes, {})[position.id] || "";
+}
+
+function saveVideoTime(position, value) {
+  const videoTimes = loadJson(STORAGE_KEYS.videoTimes, {});
+  const normalized = normalizeTimestamp(value);
+
+  if (normalized) {
+    videoTimes[position.id] = normalized;
+  } else {
+    delete videoTimes[position.id];
+  }
+
+  saveJson(STORAGE_KEYS.videoTimes, videoTimes);
+}
+
+function normalizeTimestamp(value) {
+  const clean = String(value || "").trim();
+  if (!clean) return "";
+  if (/^\d+$/.test(clean)) return clean;
+  if (/^\d{1,2}:\d{2}(:\d{2})?$/.test(clean)) return clean;
+  return clean;
+}
+
+function timestampToSeconds(value) {
+  const clean = String(value || "").trim();
+  if (!clean) return 0;
+  if (/^\d+$/.test(clean)) return Number(clean);
+
+  const parts = clean.split(":").map((part) => Number(part));
+  if (parts.some((part) => Number.isNaN(part))) return 0;
+
+  if (parts.length === 2) return parts[0] * 60 + parts[1];
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+
+  return 0;
+}
+
+function buildVideoUrl(url, time) {
+  if (!time) return url || "";
+
+  const seconds = timestampToSeconds(time);
+  if (!seconds) return url || "";
+
+  try {
+    const parsed = new URL(url);
+    parsed.searchParams.set("t", `${seconds}s`);
+    return parsed.toString();
+  } catch (error) {
+    const joiner = String(url).includes("?") ? "&" : "?";
+    return `${url}${joiner}t=${seconds}s`;
+  }
 }
 
 function recordResult(position, succeeded) {
@@ -657,7 +770,7 @@ function saveJson(key, value) {
 }
 
 function escapeHtml(value) {
-  return String(value ?? "")
+  return String(value == null ? "" : value)
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
