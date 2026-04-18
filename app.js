@@ -337,6 +337,10 @@ function getConvertedDiagramLabel(position) {
     return "Ballen en looplijnen gecalibreerd op de witte railpunten";
   }
 
+  if (position.lineStatus === "auto-diamond") {
+    return "Automatisch omgezet met per-diagram railpuntcalibratie";
+  }
+
   return "Omgezet naar app-diagram";
 }
 
@@ -676,9 +680,12 @@ function renderTable(position, editor = false) {
             ? "path-third"
             : path.ball === "stick"
               ? "path-stick"
+              : path.ball === "guide"
+                ? "path-guide"
               : "path-cue";
       const points = path.points.map((point) => `${point.x},${point.y}`).join(" ");
-      return `<polyline class="shot-path aim-line ${className}" points="${points}" marker-end="url(#${markerId})"></polyline>`;
+      const marker = path.marker === false ? "" : ` marker-end="url(#${markerId})"`;
+      return `<polyline class="shot-path aim-line ${className}" points="${points}"${marker}></polyline>`;
     })
     .join("");
 
@@ -738,12 +745,14 @@ function getAllPositions() {
 }
 
 function applyPositionOverride(position) {
-  const overrides = typeof positionOverrides === "undefined" ? {} : positionOverrides;
-  const override = overrides[position.id];
+  const generatedOverrides = typeof generatedPositionOverrides === "undefined" ? {} : generatedPositionOverrides;
+  const manualOverrides = typeof positionOverrides === "undefined" ? {} : positionOverrides;
+  const generatedOverride = generatedOverrides[position.id];
+  const manualOverride = manualOverrides[position.id];
 
-  if (!override) return position;
+  if (!generatedOverride && !manualOverride) return position;
 
-  return deepMerge(position, override);
+  return [generatedOverride, manualOverride].filter(Boolean).reduce(deepMerge, position);
 }
 
 function deepMerge(base, override) {

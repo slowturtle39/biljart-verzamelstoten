@@ -300,6 +300,11 @@ main {
   stroke-dasharray: none;
 }
 
+.path-guide {
+  stroke: rgba(255, 255, 255, 0.78);
+  stroke-width: 0.5;
+}
+
 .aim-line {
   stroke-dasharray: 2 1.5;
 }

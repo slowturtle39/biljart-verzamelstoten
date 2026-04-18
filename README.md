@@ -47,6 +47,17 @@ De debug-afbeelding komt in `scratch/calibration/` terecht. Bij nieuwe PDF's is
 waarschijnlijk een nieuw layoutprofiel nodig voor de juiste positie-crops; de
 railpunt-calibratie zelf kan daarna opnieuw per diagram worden gebruikt.
 
+De volledige automatische conversie voor de app wordt gemaakt met:
+
+```powershell
+py scripts\generate_converted_positions.py --scale 2.5
+```
+
+Dit schrijft `pdf-converted-overrides.js`. De gegenereerde data blijft bewust
+gemarkeerd als controle nodig: balposities, power en effect worden uit de
+duidelijkere PDF-render gelezen, maar de originele PDF-afbeelding blijft per
+positie beschikbaar als broncontrole.
+
 ## Gebruiken
 
 Open `index.html` in een browser. Voor installatie op telefoon of offline cache

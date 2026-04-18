@@ -78,18 +78,27 @@ def component_boxes(mask: np.ndarray, min_area: int = 1) -> list[Box]:
     return boxes
 
 
-def find_green_bed(array: np.ndarray) -> Box:
+def find_bed(array: np.ndarray, felt: str = "green") -> Box:
     red = array[:, :, 0].astype(np.int16)
     green = array[:, :, 1].astype(np.int16)
     blue = array[:, :, 2].astype(np.int16)
 
-    mask = (
-        (green > 50)
-        & (red < 105)
-        & (blue < 105)
-        & (green > red + 18)
-        & (green > blue + 18)
-    )
+    if felt == "blue":
+        mask = (
+            (blue > 85)
+            & (green > 30)
+            & (red < 75)
+            & (blue > green + 20)
+            & (blue > red + 45)
+        )
+    else:
+        mask = (
+            (green > 50)
+            & (red < 105)
+            & (blue < 105)
+            & (green > red + 18)
+            & (green > blue + 18)
+        )
 
     components = [
         box
@@ -98,9 +107,13 @@ def find_green_bed(array: np.ndarray) -> Box:
     ]
 
     if not components:
-        raise RuntimeError("No green simulation bed found")
+        raise RuntimeError(f"No {felt} bed found")
 
     return max(components, key=lambda box: box.area)
+
+
+def find_green_bed(array: np.ndarray) -> Box:
+    return find_bed(array, "green")
 
 
 def detect_white_dots(array: np.ndarray, bed: Box) -> dict[str, list[tuple[float, float]]]:
@@ -118,7 +131,7 @@ def detect_white_dots(array: np.ndarray, bed: Box) -> dict[str, list[tuple[float
     boxes = [
         box
         for box in component_boxes(white & region, min_area=3)
-        if box.area <= 80 and box.width <= 14 and box.height <= 14
+        if box.area <= 160 and box.width <= 20 and box.height <= 20
     ]
 
     candidates = [box.center for box in boxes]
@@ -137,10 +150,17 @@ def detect_white_dots(array: np.ndarray, bed: Box) -> dict[str, list[tuple[float
         if bed.top + 30 <= y <= bed.bottom - 30 and near(x, bed.right, 6, 24):
             groups["right"].append((x, y))
 
-    groups["top"] = sorted(groups["top"], key=lambda point: point[0])[:7]
-    groups["bottom"] = sorted(groups["bottom"], key=lambda point: point[0])[:7]
-    groups["left"] = sorted(groups["left"], key=lambda point: point[1])[:3]
-    groups["right"] = sorted(groups["right"], key=lambda point: point[1])[:3]
+    def centered(points: list[tuple[float, float]], count: int, axis: int) -> list[tuple[float, float]]:
+        sorted_points = sorted(points, key=lambda point: point[axis])
+        if len(sorted_points) <= count:
+            return sorted_points
+        start = (len(sorted_points) - count) // 2
+        return sorted_points[start : start + count]
+
+    groups["top"] = centered(groups["top"], 7, 0)
+    groups["bottom"] = centered(groups["bottom"], 7, 0)
+    groups["left"] = centered(groups["left"], 3, 1)
+    groups["right"] = centered(groups["right"], 3, 1)
     return groups
 
 
