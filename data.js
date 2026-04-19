@@ -2629,4 +2629,543 @@ const positionOverrides = {
       },
     ],
   },
+  "dirk-acx-051": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 61.7, y: 21.8 },
+          { x: 49.9, y: 24.6 },
+          { x: 91.9, y: 42.7 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 49.9, y: 24.6 },
+          { x: 1.0, y: 24.5 },
+          { x: 91.0, y: 42.0 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-052": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 89.4, y: 24.2 },
+          { x: 80.4, y: 17.9 },
+          { x: 95.0, y: 0.5 },
+          { x: 91.7, y: 42.5 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 80.4, y: 17.9 },
+          { x: 1.0, y: 16.0 },
+          { x: 53.0, y: 0.5 },
+          { x: 91.7, y: 42.5 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-053": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 73.1, y: 12.3 },
+          { x: 80.4, y: 17.9 },
+          { x: 19.5, y: 17.9 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 80.4, y: 17.9 },
+          { x: 98.5, y: 20.0 },
+          { x: 67.0, y: 48.5 },
+          { x: 1.0, y: 16.0 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-054": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 10.9, y: 22.6 },
+          { x: 38.4, y: 41.2 },
+          { x: 74.0, y: 46.0 },
+          { x: 92.4, y: 37.9 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 38.4, y: 41.2 },
+          { x: 42.0, y: 48.5 },
+          { x: 76.0, y: 0.5 },
+          { x: 98.5, y: 30.0 },
+          { x: 92.4, y: 37.9 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-055": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "stick",
+        marker: false,
+        points: [
+          { x: 97.5, y: 2.3 },
+          { x: 100.0, y: 47.6 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 23.8, y: 41.2 },
+          { x: 18.2, y: 23.7 },
+          { x: 1.0, y: 36.0 },
+          { x: 10.0, y: 48.5 },
+          { x: 67.0, y: 0.5 },
+          { x: 96.0, y: 38.0 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 18.2, y: 23.7 },
+          { x: 40.0, y: 0.5 },
+          { x: 98.0, y: 34.0 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-056": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "stick",
+        marker: false,
+        points: [
+          { x: 37.1, y: 4.1 },
+          { x: 29.2, y: 17.6 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 31.3, y: 28.4 },
+          { x: 26.3, y: 42.4 },
+          { x: 37.0, y: 48.0 },
+          { x: 59.3, y: 42.4 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 26.3, y: 42.4 },
+          { x: 1.0, y: 18.0 },
+          { x: 18.0, y: 0.5 },
+          { x: 43.0, y: 48.5 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-057": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 93.8, y: 24.6 },
+          { x: 87.8, y: 19.3 },
+          { x: 98.0, y: 19.0 },
+          { x: 98.0, y: 42.0 },
+          { x: 91.6, y: 42.9 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 87.8, y: 19.3 },
+          { x: 1.0, y: 11.0 },
+          { x: 56.0, y: 0.5 },
+          { x: 91.6, y: 42.9 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-058": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 82.0, y: 10.2 },
+          { x: 74.5, y: 12.0 },
+          { x: 86.0, y: 0.5 },
+          { x: 93.7, y: 14.4 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 74.5, y: 12.0 },
+          { x: 1.0, y: 45.0 },
+          { x: 10.0, y: 48.5 },
+          { x: 88.0, y: 1.0 },
+          { x: 98.0, y: 6.0 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-059": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "stick",
+        marker: false,
+        points: [
+          { x: 83.4, y: 3.0 },
+          { x: 69.7, y: 6.0 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 70.6, y: 12.4 },
+          { x: 63.0, y: 14.8 },
+          { x: 73.0, y: 0.5 },
+          { x: 80.5, y: 16.0 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 63.0, y: 14.8 },
+          { x: 1.0, y: 46.0 },
+          { x: 7.0, y: 48.5 },
+          { x: 98.0, y: 18.0 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-060": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "stick",
+        marker: false,
+        points: [
+          { x: 88.2, y: 3.2 },
+          { x: 70.8, y: 5.8 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 70.4, y: 10.0 },
+          { x: 63.0, y: 11.2 },
+          { x: 72.0, y: 0.5 },
+          { x: 80.5, y: 12.4 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 63.0, y: 11.2 },
+          { x: 1.0, y: 26.0 },
+          { x: 29.0, y: 48.5 },
+          { x: 98.0, y: 21.0 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-061": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 91.3, y: 24.6 },
+          { x: 84.6, y: 25.9 },
+          { x: 87.2, y: 16.1 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 84.6, y: 25.9 },
+          { x: 1.0, y: 29.0 },
+          { x: 30.0, y: 48.5 },
+          { x: 87.2, y: 16.1 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-062": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 86.9, y: 22.8 },
+          { x: 89.1, y: 14.8 },
+          { x: 82.6, y: 21.8 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 89.1, y: 14.8 },
+          { x: 95.0, y: 0.5 },
+          { x: 98.0, y: 10.0 },
+          { x: 91.0, y: 48.0 },
+          { x: 84.0, y: 21.0 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-063": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "stick",
+        marker: false,
+        points: [
+          { x: 70.4, y: 47.3 },
+          { x: 57.2, y: 23.1 },
+        ],
+      },
+      {
+        ball: "cue",
+        points: [
+          { x: 51.8, y: 24.9 },
+          { x: 49.1, y: 8.0 },
+          { x: 1.0, y: 22.0 },
+          { x: 25.0, y: 48.5 },
+          { x: 92.4, y: 8.9 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 49.1, y: 8.0 },
+          { x: 79.0, y: 48.5 },
+          { x: 92.4, y: 8.9 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-064": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 84.5, y: 9.2 },
+          { x: 80.5, y: 15.4 },
+          { x: 1.0, y: 21.0 },
+          { x: 23.0, y: 48.5 },
+          { x: 96.0, y: 9.0 },
+          { x: 92.7, y: 7.3 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 80.5, y: 15.4 },
+          { x: 92.0, y: 48.5 },
+          { x: 98.0, y: 8.0 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-065": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 82.1, y: 11.8 },
+          { x: 76.1, y: 17.7 },
+          { x: 98.0, y: 48.5 },
+          { x: 92.9, y: 9.4 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 76.1, y: 17.7 },
+          { x: 1.0, y: 40.0 },
+          { x: 17.0, y: 48.5 },
+          { x: 75.0, y: 0.5 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-066": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 78.9, y: 16.1 },
+          { x: 73.1, y: 26.0 },
+          { x: 98.0, y: 48.0 },
+          { x: 92.9, y: 8.6 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 73.1, y: 26.0 },
+          { x: 1.0, y: 32.0 },
+          { x: 28.0, y: 48.5 },
+          { x: 92.9, y: 8.6 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-067": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 51.7, y: 11.1 },
+          { x: 61.5, y: 18.6 },
+          { x: 80.8, y: 27.6 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 61.5, y: 18.6 },
+          { x: 98.0, y: 43.0 },
+          { x: 92.0, y: 48.5 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-068": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 11.0, y: 41.6 },
+          { x: 19.5, y: 31.6 },
+          { x: 91.8, y: 12.2 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 19.5, y: 31.6 },
+          { x: 44.0, y: 0.5 },
+          { x: 63.0, y: 48.5 },
+          { x: 98.0, y: 4.0 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-069": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 13.0, y: 41.9 },
+          { x: 5.5, y: 35.8 },
+          { x: 91.9, y: 8.6 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 5.5, y: 35.8 },
+          { x: 17.0, y: 0.5 },
+          { x: 56.0, y: 48.5 },
+          { x: 92.0, y: 8.6 },
+        ],
+      },
+    ],
+  },
+  "dirk-acx-070": {
+    status: "handmatig getraceerd - eerste lezing",
+    lineStatus: "diamond",
+    lineOverlayImage: "",
+    paths: [
+      {
+        ball: "cue",
+        points: [
+          { x: 91.4, y: 9.1 },
+          { x: 94.0, y: 16.7 },
+          { x: 1.0, y: 15.0 },
+          { x: 57.0, y: 48.5 },
+          { x: 93.4, y: 42.0 },
+        ],
+      },
+      {
+        ball: "second",
+        points: [
+          { x: 94.0, y: 16.7 },
+          { x: 1.0, y: 6.0 },
+          { x: 12.0, y: 0.5 },
+          { x: 84.0, y: 48.5 },
+          { x: 93.4, y: 42.0 },
+        ],
+      },
+    ],
+  },
 };
