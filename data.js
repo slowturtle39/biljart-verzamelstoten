@@ -245,6 +245,405 @@ const seedPositions = [
       figure: "groep 22, schematisch",
     },
   },
+  {
+    id: "daly-048-b",
+    title: "Daly 48B - Rappelbal opvangen",
+    category: "daly-verzamelen",
+    difficulty: 3,
+    status: "Daly - goede variant",
+    renderMode: "table",
+    lineStatus: "daly-redrawn",
+    tags: ["libre", "daly", "rappel", "opvangstoot", "verzamelen"],
+    goal:
+      "Speel de opvangstoot zo dat de rappelbal terugkomt bij de twee andere ballen in plaats van alles los te trekken.",
+    hint:
+      "Laat de bal die terugkomt van de band niet door de groep glippen. Het doel is opvangen, niet hard verzamelen.",
+    solution: {
+      hitPoint: "zacht en controleerbaar, met zij-effect op de speelbal",
+      thickness: "niet forceren; genoeg raak om de bal op te vangen",
+      speed: "zacht tot middelzacht",
+      explanation:
+        "Daly noemt dit de goede aanpak van de rappel: de bal wordt bij terugkomst opgevangen door de twee andere ballen. Zo blijft er een compact vervolgbeeld over in plaats van een losse open positie.",
+      technicalDetails: [
+        "Bron: Maurice Daly, Het seriespel, afbeelding 48B.",
+        "Valkuil uit dezelfde figuur: te veel ruimte laten, waardoor de rappelbal voorbij de groep loopt.",
+        "Dit is opnieuw getekend als app-diagram; de tekst is een korte samenvatting van Daly's uitleg.",
+      ],
+    },
+    balls: {
+      cue: { x: 50, y: 42 },
+      second: { x: 62, y: 42 },
+      third: { x: 53, y: 38 },
+    },
+    paths: [
+      { ball: "stick", marker: false, points: [{ x: 15, y: 42 }, { x: 50, y: 42 }] },
+      { ball: "cue", points: [{ x: 50, y: 42 }, { x: 62, y: 42 }, { x: 54, y: 38 }] },
+      { ball: "second", points: [{ x: 62, y: 42 }, { x: 88, y: 39 }, { x: 58, y: 40 }] },
+      { ball: "guide", marker: false, points: [{ x: 88, y: 39 }, { x: 58, y: 40 }, { x: 53, y: 38 }] },
+    ],
+    source: {
+      type: "pdf",
+      title: "Maurice Daly - Het seriespel",
+      url: "",
+      note: "Goede Daly-variant opnieuw getekend; de verkeerde variant is alleen als valkuil gebruikt.",
+    },
+    media: {
+      videoUrl: "",
+      videoStart: "",
+      pdfFile: "Maurice_Daly-Het-seriespel.pdf",
+      pdfPage: "10",
+      figure: "Afbeelding 48B",
+    },
+  },
+  {
+    id: "daly-059-goed",
+    title: "Daly 59 - Verzamelen met zicht op korte band",
+    category: "daly-verzamelen",
+    difficulty: 3,
+    status: "Daly - goede variant",
+    renderMode: "table",
+    lineStatus: "daly-redrawn",
+    tags: ["libre", "daly", "korte-band", "verzamelen"],
+    goal:
+      "Maak de carambole en houd de ballen zodanig dat je zicht houdt op de korte band.",
+    hint:
+      "Daly kiest hier liever de veilige verzamelrichting dan een twijfelachtige korte oplossing door het midden.",
+    solution: {
+      hitPoint: "rustig op de buitenkant van bal 2",
+      thickness: "dun tot halfvol, met behoud van zicht op de korte band",
+      speed: "beheerst",
+      explanation:
+        "De goede variant verzamelt met zicht op de korte band. Het punt is niet alleen scoren, maar ook voorkomen dat de volgende stoot op de middentafel moet worden opgelost.",
+      technicalDetails: [
+        "Bron: Maurice Daly, Het seriespel, afbeelding 59.",
+        "Valkuil uit dezelfde afbeelding: verkeerd verzamelen op de middentafel.",
+        "De oefening gebruikt alleen de goede rechtervariant als speelpositie.",
+      ],
+    },
+    balls: {
+      cue: { x: 60, y: 31 },
+      second: { x: 68, y: 29 },
+      third: { x: 63, y: 24 },
+    },
+    paths: [
+      { ball: "stick", marker: false, points: [{ x: 52, y: 48 }, { x: 60, y: 31 }] },
+      { ball: "cue", points: [{ x: 60, y: 31 }, { x: 68, y: 29 }, { x: 63, y: 24 }] },
+      { ball: "second", points: [{ x: 68, y: 29 }, { x: 76, y: 28 }, { x: 71, y: 30 }] },
+      { ball: "guide", marker: false, points: [{ x: 71, y: 30 }, { x: 66, y: 29 }, { x: 63, y: 24 }] },
+    ],
+    source: {
+      type: "pdf",
+      title: "Maurice Daly - Het seriespel",
+      url: "",
+      note: "Goede Daly-variant opnieuw getekend; de verkeerde variant is alleen als valkuil gebruikt.",
+    },
+    media: {
+      videoUrl: "",
+      videoStart: "",
+      pdfFile: "Maurice_Daly-Het-seriespel.pdf",
+      pdfPage: "19",
+      figure: "Afbeelding 59",
+    },
+  },
+  {
+    id: "daly-060-a",
+    title: "Daly 60A - Voorbereiden op de korte tafel",
+    category: "daly-verzamelen",
+    difficulty: 3,
+    status: "Daly - goede variant",
+    renderMode: "table",
+    lineStatus: "daly-redrawn",
+    tags: ["libre", "daly", "voorbereiden", "korte-tafel"],
+    goal:
+      "Speel een voorbereidende stoot die de volgende verzamelstoot op de korte tafel makkelijker maakt.",
+    hint:
+      "Daly laat hier zien dat niet elke goede stoot direct de eindverzameling hoeft te zijn.",
+    solution: {
+      hitPoint: "licht controlerend, zonder de cluster open te spelen",
+      thickness: "kort genoeg om de ballen in dezelfde zone te houden",
+      speed: "zacht",
+      explanation:
+        "Voorbeeld A is de goede voorbereidende stoot. De eerste stoot brengt het vervolgbeeld naar de korte tafel; de tweede stoot kan daarna echt verzamelen.",
+      technicalDetails: [
+        "Bron: Maurice Daly, Het seriespel, afbeelding 60A.",
+        "Valkuil uit dezelfde afbeelding: de ballen naar de middentafel brengen in plaats van naar de korte tafel.",
+        "Gebruik dit als oefening in geduld: eerst voorbereiden, dan verzamelen.",
+      ],
+    },
+    balls: {
+      cue: { x: 28, y: 26 },
+      second: { x: 24, y: 35 },
+      third: { x: 30, y: 19 },
+    },
+    paths: [
+      { ball: "stick", marker: false, points: [{ x: 31, y: 49 }, { x: 28, y: 26 }] },
+      { ball: "cue", points: [{ x: 28, y: 26 }, { x: 24, y: 35 }, { x: 30, y: 19 }] },
+      { ball: "second", points: [{ x: 24, y: 35 }, { x: 18, y: 41 }, { x: 22, y: 24 }] },
+      { ball: "guide", marker: false, points: [{ x: 22, y: 24 }, { x: 26, y: 22 }, { x: 30, y: 19 }] },
+    ],
+    source: {
+      type: "pdf",
+      title: "Maurice Daly - Het seriespel",
+      url: "",
+      note: "Goede Daly-variant opnieuw getekend; de verkeerde variant is alleen als valkuil gebruikt.",
+    },
+    media: {
+      videoUrl: "",
+      videoStart: "",
+      pdfFile: "Maurice_Daly-Het-seriespel.pdf",
+      pdfPage: "19",
+      figure: "Afbeelding 60A",
+    },
+  },
+  {
+    id: "daly-061-a",
+    title: "Daly 61A - Zacht doorschieten",
+    category: "daly-verzamelen",
+    difficulty: 2,
+    status: "Daly - goede variant",
+    renderMode: "table",
+    lineStatus: "daly-redrawn",
+    tags: ["libre", "daly", "zacht", "doorschieten"],
+    goal:
+      "Speel zacht door, maak de carambole en laat de ballen kort bij elkaar liggen.",
+    hint:
+      "Bij deze positie is de verleiding groot om te dun of te hard te spelen. Houd het klein.",
+    solution: {
+      hitPoint: "iets boven hart, met rustige doorstoot",
+      thickness: "net genoeg raak om bal 2 mee te nemen",
+      speed: "zacht",
+      explanation:
+        "Daly noemt dit een veelvoorkomende beginnerspositie. De goede oplossing is zacht doorschieten: wel scoren, maar bal 2 en bal 3 niet uit elkaar laten lopen.",
+      technicalDetails: [
+        "Bron: Maurice Daly, Het seriespel, afbeelding 61A.",
+        "Valkuil uit dezelfde afbeelding: dun spelen en de verzamelkans kwijt raken.",
+        "De stoot is vooral een tempo-oefening.",
+      ],
+    },
+    balls: {
+      cue: { x: 30, y: 15 },
+      second: { x: 42, y: 15 },
+      third: { x: 36, y: 20 },
+    },
+    paths: [
+      { ball: "stick", marker: false, points: [{ x: 70, y: 13 }, { x: 42, y: 15 }] },
+      { ball: "cue", points: [{ x: 30, y: 15 }, { x: 42, y: 15 }, { x: 36, y: 20 }] },
+      { ball: "second", points: [{ x: 42, y: 15 }, { x: 49, y: 13 }, { x: 38, y: 17 }] },
+      { ball: "guide", marker: false, points: [{ x: 38, y: 17 }, { x: 34, y: 18 }, { x: 36, y: 20 }] },
+    ],
+    source: {
+      type: "pdf",
+      title: "Maurice Daly - Het seriespel",
+      url: "",
+      note: "Goede Daly-variant opnieuw getekend; de verkeerde variant is alleen als valkuil gebruikt.",
+    },
+    media: {
+      videoUrl: "",
+      videoStart: "",
+      pdfFile: "Maurice_Daly-Het-seriespel.pdf",
+      pdfPage: "20",
+      figure: "Afbeelding 61A",
+    },
+  },
+  {
+    id: "daly-062-a",
+    title: "Daly 62A - Losse bandstoot naar korte tafel",
+    category: "daly-verzamelen",
+    difficulty: 3,
+    status: "Daly - goede variant",
+    renderMode: "table",
+    lineStatus: "daly-redrawn",
+    tags: ["libre", "daly", "bandstoot", "korte-tafel"],
+    goal:
+      "Gebruik de losse bandstoot om te verzamelen op de korte tafel.",
+    hint:
+      "Speel niet direct alles naar het midden. De band helpt om de ballen in de korte zone te houden.",
+    solution: {
+      hitPoint: "laag genoeg voor de bandlijn, maar zonder te forceren",
+      thickness: "dun tot halfvol; de tweede bal moet compact blijven",
+      speed: "middelzacht",
+      explanation:
+        "In voorbeeld A verzamelt Daly op de korte tafel met een losse bandstoot. De goede keuze is niet de directe bal, maar de route die de ballen in een bruikbaar seriegebied houdt.",
+      technicalDetails: [
+        "Bron: Maurice Daly, Het seriespel, afbeelding 62A.",
+        "Valkuil uit dezelfde afbeelding: rechtstreeks spelen en de ballen hoogstens bij het midden laten liggen.",
+        "Deze oefening traint routekeuze, niet alleen raakzuiverheid.",
+      ],
+    },
+    balls: {
+      cue: { x: 18, y: 9 },
+      second: { x: 24, y: 10 },
+      third: { x: 33, y: 15 },
+    },
+    paths: [
+      { ball: "stick", marker: false, points: [{ x: 68, y: 20 }, { x: 45, y: 15 }] },
+      { ball: "cue", points: [{ x: 45, y: 15 }, { x: 24, y: 10 }, { x: 18, y: 9 }, { x: 33, y: 15 }] },
+      { ball: "second", points: [{ x: 24, y: 10 }, { x: 10, y: 5 }, { x: 22, y: 35 }, { x: 33, y: 15 }] },
+    ],
+    source: {
+      type: "pdf",
+      title: "Maurice Daly - Het seriespel",
+      url: "",
+      note: "Goede Daly-variant opnieuw getekend; de verkeerde variant is alleen als valkuil gebruikt.",
+    },
+    media: {
+      videoUrl: "",
+      videoStart: "",
+      pdfFile: "Maurice_Daly-Het-seriespel.pdf",
+      pdfPage: "20",
+      figure: "Afbeelding 62A",
+    },
+  },
+  {
+    id: "daly-107-a",
+    title: "Daly 107A - Links effect verzamelt",
+    category: "daly-verzamelen",
+    difficulty: 3,
+    status: "Daly - goede variant",
+    renderMode: "table",
+    lineStatus: "daly-redrawn",
+    tags: ["libre", "daly", "effect", "links-effect"],
+    goal:
+      "Gebruik links effect om de ballen bij elkaar te houden in plaats van uit elkaar te laten drijven.",
+    hint:
+      "Het effect is hier geen versiering: het bepaalt of de ballen verzamelen of openvallen.",
+    solution: {
+      hitPoint: "links effect, rustig door de bal",
+      thickness: "controleerbaar vol genoeg om de cluster klein te houden",
+      speed: "zacht tot middelzacht",
+      explanation:
+        "Daly zet links effect tegenover rechts effect. In voorbeeld A verzamelt links effect; de ballen blijven in dezelfde zone en geven een betere volgende stoot.",
+      technicalDetails: [
+        "Bron: Maurice Daly, Het seriespel, afbeelding 107A.",
+        "Valkuil uit dezelfde afbeelding: rechts effect drijft uiteen.",
+        "Let vooral op het verschil tussen effect gebruiken en te hard willen corrigeren.",
+      ],
+    },
+    balls: {
+      cue: { x: 36, y: 34 },
+      second: { x: 43, y: 31 },
+      third: { x: 38, y: 28 },
+    },
+    paths: [
+      { ball: "stick", marker: false, points: [{ x: 27, y: 49 }, { x: 36, y: 34 }] },
+      { ball: "cue", points: [{ x: 36, y: 34 }, { x: 43, y: 31 }, { x: 38, y: 28 }] },
+      { ball: "second", points: [{ x: 43, y: 31 }, { x: 49, y: 31 }, { x: 44, y: 34 }] },
+      { ball: "guide", marker: false, points: [{ x: 44, y: 34 }, { x: 40, y: 31 }, { x: 38, y: 28 }] },
+    ],
+    source: {
+      type: "pdf",
+      title: "Maurice Daly - Het seriespel",
+      url: "",
+      note: "Goede Daly-variant opnieuw getekend; de verkeerde variant is alleen als valkuil gebruikt.",
+    },
+    media: {
+      videoUrl: "",
+      videoStart: "",
+      pdfFile: "Maurice_Daly-Het-seriespel.pdf",
+      pdfPage: "47",
+      figure: "Afbeelding 107A",
+    },
+  },
+  {
+    id: "daly-108-a",
+    title: "Daly 108A - Door de hoek verzamelen",
+    category: "daly-verzamelen",
+    difficulty: 4,
+    status: "Daly - goede variant",
+    renderMode: "table",
+    lineStatus: "daly-redrawn",
+    tags: ["libre", "daly", "hoek", "verzamelen"],
+    goal:
+      "Verzamel in een stoot door de hoek te gebruiken en de ballen compact terug te brengen.",
+    hint:
+      "De hoek is hier je rem en je richting. Speel niet alsof de tafel open moet.",
+    solution: {
+      hitPoint: "met genoeg effect om de hoeklijn te houden",
+      thickness: "zuinig op bal 2, zodat de bal terugkomt in de cluster",
+      speed: "beheerst, niet forceren",
+      explanation:
+        "Voorbeeld A laat zien hoe je via de hoek in een stoot kunt verzamelen. De bedoeling is dat de ballen niet breed weggaan, maar terugvallen naar dezelfde korte zone.",
+      technicalDetails: [
+        "Bron: Maurice Daly, Het seriespel, afbeelding 108A.",
+        "Dit is een goede variant; er is geen afzonderlijke verkeerde oefening van gemaakt.",
+        "Gebruik de hoek als hulpmiddel om snelheid uit de ballen te halen.",
+      ],
+    },
+    balls: {
+      cue: { x: 22, y: 12 },
+      second: { x: 28, y: 16 },
+      third: { x: 17, y: 9 },
+    },
+    paths: [
+      { ball: "stick", marker: false, points: [{ x: 30, y: 42 }, { x: 22, y: 12 }] },
+      { ball: "cue", points: [{ x: 22, y: 12 }, { x: 28, y: 16 }, { x: 17, y: 9 }] },
+      { ball: "second", points: [{ x: 28, y: 16 }, { x: 11, y: 5 }, { x: 19, y: 10 }] },
+      { ball: "guide", marker: false, points: [{ x: 19, y: 10 }, { x: 25, y: 8 }, { x: 28, y: 16 }] },
+    ],
+    source: {
+      type: "pdf",
+      title: "Maurice Daly - Het seriespel",
+      url: "",
+      note: "Goede Daly-variant opnieuw getekend; de verkeerde variant is alleen als valkuil gebruikt.",
+    },
+    media: {
+      videoUrl: "",
+      videoStart: "",
+      pdfFile: "Maurice_Daly-Het-seriespel.pdf",
+      pdfPage: "47",
+      figure: "Afbeelding 108A",
+    },
+  },
+  {
+    id: "daly-108-b",
+    title: "Daly 108B - Trekstootje langs wit",
+    category: "daly-verzamelen",
+    difficulty: 3,
+    status: "Daly - goede variant",
+    renderMode: "table",
+    lineStatus: "daly-redrawn",
+    tags: ["libre", "daly", "trekstoot", "verzamelen"],
+    goal:
+      "Speel het trekstootje langs wit en houd de drie ballen klaar voor een eenvoudige verzamelstoot.",
+    hint:
+      "Het stootje is klein. Trek niet te ver terug en laat de tweede bal niet uit de zone vallen.",
+    solution: {
+      hitPoint: "laag, met een korte trekactie",
+      thickness: "langs wit, niet vol door de groep heen",
+      speed: "kort en zacht",
+      explanation:
+        "Daly noemt dit een gemakkelijke verzamelstoot: een klein trekstootje langs wit houdt het spel compact en laat een bruikbaar vervolgbeeld liggen.",
+      technicalDetails: [
+        "Bron: Maurice Daly, Het seriespel, afbeelding 108B.",
+        "Dit is een goede variant; hij staat naast 108A als tweede bruikbare keuze.",
+        "De oefening draait om klein houden, niet om spectaculaire balbeweging.",
+      ],
+    },
+    balls: {
+      cue: { x: 78, y: 14 },
+      second: { x: 88, y: 21 },
+      third: { x: 92, y: 11 },
+    },
+    paths: [
+      { ball: "stick", marker: false, points: [{ x: 69, y: 14 }, { x: 78, y: 14 }] },
+      { ball: "cue", points: [{ x: 78, y: 14 }, { x: 88, y: 21 }, { x: 92, y: 11 }] },
+      { ball: "second", points: [{ x: 88, y: 21 }, { x: 96, y: 16 }, { x: 91, y: 12 }] },
+      { ball: "guide", marker: false, points: [{ x: 91, y: 12 }, { x: 84, y: 17 }, { x: 88, y: 21 }] },
+    ],
+    source: {
+      type: "pdf",
+      title: "Maurice Daly - Het seriespel",
+      url: "",
+      note: "Goede Daly-variant opnieuw getekend; de verkeerde variant is alleen als valkuil gebruikt.",
+    },
+    media: {
+      videoUrl: "",
+      videoStart: "",
+      pdfFile: "Maurice_Daly-Het-seriespel.pdf",
+      pdfPage: "47",
+      figure: "Afbeelding 108B",
+    },
+  },
 ];
 
 const positionOverrides = {

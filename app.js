@@ -345,6 +345,10 @@ function getConvertedDiagramLabel(position) {
     return "Verdikte bronlijnen gecalibreerd op de witte railpunten";
   }
 
+  if (position.lineStatus === "daly-redrawn") {
+    return "Daly-voorbeeld opnieuw getekend als oefendiagram";
+  }
+
   return "Omgezet naar app-diagram";
 }
 
@@ -749,7 +753,7 @@ function getPracticeQueue(onlyFailed) {
 
 function getAllPositions() {
   const importedPositions = typeof pdfPositions === "undefined" ? [] : pdfPositions;
-  return [...importedPositions, ...seedPositions, ...loadJson(STORAGE_KEYS.custom, [])].map(applyPositionOverride);
+  return [...seedPositions, ...loadJson(STORAGE_KEYS.custom, []), ...importedPositions].map(applyPositionOverride);
 }
 
 function applyPositionOverride(position) {

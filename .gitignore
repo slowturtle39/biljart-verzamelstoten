@@ -1,3 +1,4 @@
 *.pdf
 scratch/
+source-books/
 __pycache__/
